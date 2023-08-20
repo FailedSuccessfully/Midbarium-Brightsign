@@ -1,0 +1,3461 @@
+{
+  "bsdm": {
+    "sign": {
+      "properties": {
+        "id": "e5daef64-dfd1-4000-aa50-6eee8d587000",
+        "version": "1.3.10",
+        "name": "Giraffe",
+        "videoMode": "0x0x0p",
+        "size": {
+          "width": 0,
+          "height": 0
+        },
+        "model": "AU335",
+        "monitorOrientation": "None",
+        "monitorOverscan": "NoOverscan",
+        "videoConnector": "None",
+        "deviceWebPageDisplay": "Standard",
+        "backgroundScreenColor": {
+          "a": 255,
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "forceResolution": false,
+        "tenBitColorEnabled": false,
+        "dolbyVisionEnabled": false,
+        "fullResGraphicsEnabled": false,
+        "audioConfiguration": "MixedAudioPCMOnly",
+        "audioAutoLevel": false,
+        "htmlEnableJavascriptConsole": true,
+        "alphabetizeVariableNames": false,
+        "autoCreateMediaCounterVariables": false,
+        "resetVariablesOnPresentationStart": true,
+        "networkedVariablesUpdateInterval": 30,
+        "delayScheduleChangeUntilMediaEndEvent": false,
+        "language": "English",
+        "languageKey": "eng",
+        "flipCoordinates": false,
+        "inactivityTimeout": false,
+        "inactivityTime": 30,
+        "touchCursorDisplayMode": "Auto",
+        "udpDestinationAddressType": "IPAddress",
+        "udpDestinationAddress": "255.255.255.255",
+        "udpDestinationPort": 5000,
+        "udpReceiverPort": 5000,
+        "enableEnhancedSynchronization": null,
+        "disableSettingsHandler": false,
+        "isMosaic": false,
+        "graphicsZOrder": "Back"
+      },
+      "serialPortConfigurations": [
+        {
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "2",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "output",
+        "output"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Ir-in"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1002",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "0": {
+              "buttonCode": 0,
+              "buttonDescription": "Option"
+            },
+            "1": {
+              "buttonCode": 1,
+              "buttonDescription": "1"
+            },
+            "2": {
+              "buttonCode": 2,
+              "buttonDescription": "2"
+            },
+            "3": {
+              "buttonCode": 3,
+              "buttonDescription": "3"
+            },
+            "4": {
+              "buttonCode": 4,
+              "buttonDescription": "4"
+            },
+            "5": {
+              "buttonCode": 5,
+              "buttonDescription": "5"
+            },
+            "6": {
+              "buttonCode": 6,
+              "buttonDescription": "6"
+            },
+            "7": {
+              "buttonCode": 7,
+              "buttonDescription": "7"
+            },
+            "8": {
+              "buttonCode": 8,
+              "buttonDescription": "8"
+            },
+            "9": {
+              "buttonCode": 9,
+              "buttonDescription": "9"
+            },
+            "10": {
+              "buttonCode": 10,
+              "buttonDescription": "Exit"
+            },
+            "11": {
+              "buttonCode": 11,
+              "buttonDescription": "Channel Up"
+            },
+            "12": {
+              "buttonCode": 12,
+              "buttonDescription": "Period \".\""
+            },
+            "13": {
+              "buttonCode": 13,
+              "buttonDescription": "Channel Down"
+            },
+            "14": {
+              "buttonCode": 14,
+              "buttonDescription": "Source"
+            },
+            "15": {
+              "buttonCode": 15,
+              "buttonDescription": "Mute"
+            },
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            },
+            "67": {
+              "buttonCode": 67,
+              "buttonDescription": "Info"
+            },
+            "68": {
+              "buttonCode": 68,
+              "buttonDescription": "Green"
+            },
+            "69": {
+              "buttonCode": 69,
+              "buttonDescription": "0"
+            },
+            "70": {
+              "buttonCode": 70,
+              "buttonDescription": "Stop"
+            },
+            "71": {
+              "buttonCode": 71,
+              "buttonDescription": "Last"
+            },
+            "83": {
+              "buttonCode": 83,
+              "buttonDescription": "Red"
+            },
+            "84": {
+              "buttonCode": 84,
+              "buttonDescription": "Blue"
+            },
+            "87": {
+              "buttonCode": 87,
+              "buttonDescription": "Yellow"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 100
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi1": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi2": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi4": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 100
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "wssDeviceSpec": {},
+      "lastModifiedTime": "2023-08-03T07:27:31.327Z"
+    },
+    "zones": {
+      "zonesById": {
+        "a0aa97b2-8769-4000-ad73-1c174c091000": {
+          "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+          "name": "Zone 1",
+          "type": "Control",
+          "tag": "Control0",
+          "nonInteractive": false,
+          "initialMediaStateId": "71bbf419-9803-4000-a7ea-a68e8a8a6000",
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1080,
+            "pct": false
+          },
+          "properties": {}
+        },
+        "1f10a5f4-15c4-4000-a3ea-172ac3b18000": {
+          "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+          "name": "Zone 2",
+          "type": "AudioOnly",
+          "tag": "AudioOnly0",
+          "nonInteractive": false,
+          "initialMediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+          "position": {
+            "x": 480,
+            "y": 270,
+            "width": 960,
+            "height": 540,
+            "pct": false
+          },
+          "properties": {
+            "audioOutput": "Analog",
+            "audioMode": "Stereo",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "Pcm",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "spdif": "Pcm",
+              "hdmi": "Pcm",
+              "hdmi1": "Pcm",
+              "hdmi2": "None",
+              "hdmi3": "None",
+              "hdmi4": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 100,
+            "minimumVolume": 0,
+            "maximumVolume": 100
+          }
+        },
+        "7de001b7-4921-4000-a2dd-4e5248da1000": {
+          "id": "7de001b7-4921-4000-a2dd-4e5248da1000",
+          "name": "Zone 3",
+          "type": "AudioOnly",
+          "tag": "AudioOnly1",
+          "nonInteractive": false,
+          "initialMediaStateId": "862c21bd-c8b3-4000-a685-c0fa04537000",
+          "position": {
+            "x": 480,
+            "y": 270,
+            "width": 960,
+            "height": 540,
+            "pct": false
+          },
+          "properties": {
+            "audioOutput": "Analog",
+            "audioMode": "Stereo",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "Pcm",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "spdif": "Pcm",
+              "hdmi": "Pcm",
+              "hdmi1": "Pcm",
+              "hdmi2": "None",
+              "hdmi3": "None",
+              "hdmi4": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 100,
+            "minimumVolume": 0,
+            "maximumVolume": 100
+          }
+        }
+      },
+      "allZones": [
+        "a0aa97b2-8769-4000-ad73-1c174c091000",
+        "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+        "7de001b7-4921-4000-a2dd-4e5248da1000"
+      ],
+      "zoneLayersById": {
+        "cee7ad05-08db-4000-a129-f5655ac08000": {
+          "id": "cee7ad05-08db-4000-a129-f5655ac08000",
+          "type": "Graphics",
+          "zoneSequence": []
+        },
+        "2d6d5a25-463b-4000-a21a-0dbcbd99a000": {
+          "id": "2d6d5a25-463b-4000-a21a-0dbcbd99a000",
+          "type": "Audio",
+          "zoneSequence": [
+            "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "7de001b7-4921-4000-a2dd-4e5248da1000"
+          ]
+        },
+        "1b879869-e1b0-4000-a0c0-39d2bb419000": {
+          "id": "1b879869-e1b0-4000-a0c0-39d2bb419000",
+          "type": "Invisible",
+          "zoneSequence": []
+        },
+        "b64ae2ba-1a6d-4000-ac56-7215b9142000": {
+          "id": "b64ae2ba-1a6d-4000-ac56-7215b9142000",
+          "type": "Video",
+          "zoneSequence": [],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 0,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        }
+      },
+      "zoneLayerSequence": [
+        "cee7ad05-08db-4000-a129-f5655ac08000",
+        "b64ae2ba-1a6d-4000-ac56-7215b9142000"
+      ],
+      "zoneTagIndices": {
+        "a0aa97b2-8769-4000-ad73-1c174c091000": 11,
+        "1f10a5f4-15c4-4000-a3ea-172ac3b18000": 17,
+        "7de001b7-4921-4000-a2dd-4e5248da1000": 3
+      }
+    },
+    "screens": {
+      "screensById": {},
+      "allScreens": []
+    },
+    "mediaStates": {
+      "mediaStatesById": {
+        "71bbf419-9803-4000-a7ea-a68e8a8a6000": {
+          "id": "71bbf419-9803-4000-a7ea-a68e8a8a6000",
+          "name": "Entry",
+          "tag": "1",
+          "container": {
+            "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Entry",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "9b3d7fea-b44e-4000-a400-16ec82e85000": {
+          "id": "9b3d7fea-b44e-4000-a400-16ec82e85000",
+          "name": "Choose Hebrew",
+          "tag": "2",
+          "container": {
+            "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Choose Hebrew",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "25c45175-f2ef-4000-aab8-8216f9aac000": {
+          "id": "25c45175-f2ef-4000-aab8-8216f9aac000",
+          "name": "Choose English",
+          "tag": "3",
+          "container": {
+            "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Choose English",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "f85713ee-578e-4000-a2fb-a4c028b8e000": {
+          "id": "f85713ee-578e-4000-a2fb-a4c028b8e000",
+          "name": "Choose Arab",
+          "tag": "4",
+          "container": {
+            "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Choose Arab",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "64351ce6-c51c-4000-a2c8-c05afbd35000": {
+          "id": "64351ce6-c51c-4000-a2c8-c05afbd35000",
+          "name": "Pump Enabled",
+          "tag": "5",
+          "container": {
+            "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Pump Enabled",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "de579df9-2847-4000-adf8-995b6a3bc000": {
+          "id": "de579df9-2847-4000-adf8-995b6a3bc000",
+          "name": "First Statement Pass",
+          "tag": "8",
+          "container": {
+            "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "First Statement Pass",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "9838553d-1d50-4000-a34f-2e5cde871000": {
+          "id": "9838553d-1d50-4000-a34f-2e5cde871000",
+          "name": "Second Statement Pass",
+          "tag": "9",
+          "container": {
+            "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Second Statement Pass",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "8c460f0e-62e3-4000-adb9-e025619da000": {
+          "id": "8c460f0e-62e3-4000-adb9-e025619da000",
+          "name": "Top Height Pass",
+          "tag": "10",
+          "container": {
+            "id": "a0aa97b2-8769-4000-ad73-1c174c091000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Top Height Pass",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "a4534a5f-60e4-4000-a3f6-1ce62ba4a000": {
+          "id": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+          "name": "Entry",
+          "tag": "1",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Entry",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "c525f380-77a9-4000-a5de-f54a36121000": {
+          "id": "c525f380-77a9-4000-a5de-f54a36121000",
+          "name": "Hebrew Start",
+          "tag": "7",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 1 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "3caf9e60-8cc8-4000-ad2e-b3fbaf62b000",
+            "volume": 100
+          }
+        },
+        "e6dcfc8d-e152-4000-a95f-a5c911183000": {
+          "id": "e6dcfc8d-e152-4000-a95f-a5c911183000",
+          "name": "English Start",
+          "tag": "8",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 1 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "4ff813c9-fb1e-4000-a6e8-206511f17000",
+            "volume": 100
+          }
+        },
+        "8498d7dd-4d2f-4000-ab6f-371dd1d50000": {
+          "id": "8498d7dd-4d2f-4000-ab6f-371dd1d50000",
+          "name": "Arab Start",
+          "tag": "9",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 1 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "b4326ff3-c13d-4000-a14a-53f50dad5000",
+            "volume": 100
+          }
+        },
+        "4fe0f919-212a-4000-a75d-325d2fc9d000": {
+          "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+          "name": "Hebrew Statements",
+          "tag": "10",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Hebrew Statements",
+            "type": "MediaList",
+            "playbackType": "NextInList",
+            "startIndex": 0,
+            "shuffle": true,
+            "support4KImage": false,
+            "sendMediaZoneMessage": false,
+            "useDataFeed": false,
+            "dataFeedId": "0",
+            "transition": "No effect",
+            "transitionDuration": 1,
+            "autoTransitions": false,
+            "inactivityTimeout": false,
+            "inactivityTime": 0
+          }
+        },
+        "2386da56-762a-4000-a43b-2b01c1e2d000": {
+          "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+          "name": "English Statements",
+          "tag": "11",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "English Statements",
+            "type": "MediaList",
+            "playbackType": "FromBeginning",
+            "startIndex": 0,
+            "shuffle": true,
+            "support4KImage": false,
+            "sendMediaZoneMessage": false,
+            "useDataFeed": false,
+            "dataFeedId": "0",
+            "transition": "No effect",
+            "transitionDuration": 1,
+            "autoTransitions": false,
+            "inactivityTimeout": false,
+            "inactivityTime": 0
+          }
+        },
+        "38fcbffe-825a-4000-aae7-95ec40def000": {
+          "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+          "name": "Arab Statements",
+          "tag": "12",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Arab Statements",
+            "type": "MediaList",
+            "playbackType": "FromBeginning",
+            "startIndex": 0,
+            "shuffle": true,
+            "support4KImage": false,
+            "sendMediaZoneMessage": false,
+            "useDataFeed": false,
+            "dataFeedId": "0",
+            "transition": "No effect",
+            "transitionDuration": 1,
+            "autoTransitions": false,
+            "inactivityTimeout": false,
+            "inactivityTime": 0
+          }
+        },
+        "bb3bc172-8302-4000-a047-cc534e873000": {
+          "id": "bb3bc172-8302-4000-a047-cc534e873000",
+          "name": "wait hebrew",
+          "tag": "13",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "wait hebrew",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "0b519708-3b55-4000-a1ec-bf93d13ef000": {
+          "id": "0b519708-3b55-4000-a1ec-bf93d13ef000",
+          "name": "wait English",
+          "tag": "14",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "wait English",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "2ac04928-c5ee-4000-afe4-1a6a5a2f5000": {
+          "id": "2ac04928-c5ee-4000-afe4-1a6a5a2f5000",
+          "name": "wait arab",
+          "tag": "15",
+          "container": {
+            "id": "1f10a5f4-15c4-4000-a3ea-172ac3b18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "wait arab",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "1e6f08b4-b381-4000-a564-697e98ac2000": {
+          "id": "1e6f08b4-b381-4000-a564-697e98ac2000",
+          "name": "heartbeat-sound-effect-111218.mp3",
+          "tag": "1",
+          "container": {
+            "id": "7de001b7-4921-4000-a2dd-4e5248da1000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "heartbeat-sound-effect-111218.mp3",
+            "type": "Audio",
+            "assetId": "061100fe-57c6-4000-aa01-9591b2218000",
+            "volume": 100
+          }
+        },
+        "862c21bd-c8b3-4000-a685-c0fa04537000": {
+          "id": "862c21bd-c8b3-4000-a685-c0fa04537000",
+          "name": "Event Handler",
+          "tag": "2",
+          "container": {
+            "id": "7de001b7-4921-4000-a2dd-4e5248da1000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Event Handler",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "3d469afe-dce0-4000-afe8-f96bd4ffb000": {
+          "id": "3d469afe-dce0-4000-afe8-f96bd4ffb000",
+          "name": "Giraffe Game ARAB 10  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 10  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "856caafb-09d6-4000-a744-6141f1e15000",
+            "volume": 100
+          }
+        },
+        "d6851760-4cc4-4000-a630-3e596cf83000": {
+          "id": "d6851760-4cc4-4000-a630-3e596cf83000",
+          "name": "Giraffe Game ARAB 11  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 11  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "6aa07e30-1c49-4000-ac03-3852975b6000",
+            "volume": 100
+          }
+        },
+        "54d24488-1918-4000-ab13-d46b2480f000": {
+          "id": "54d24488-1918-4000-ab13-d46b2480f000",
+          "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "8a8d7754-709c-4000-aa53-b7cddd817000",
+            "volume": 100
+          }
+        },
+        "4d708694-5bc0-4000-acc7-ff87cfcad000": {
+          "id": "4d708694-5bc0-4000-acc7-ff87cfcad000",
+          "name": "Giraffe Game ARAB 13  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 13  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "c50dbed5-98f3-4000-a250-dbf89d5cf000",
+            "volume": 100
+          }
+        },
+        "bc67fa71-ffe8-4000-a7ed-33ffcc886000": {
+          "id": "bc67fa71-ffe8-4000-a7ed-33ffcc886000",
+          "name": "Giraffe Game ARAB 2  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 2  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "d0f4b5a2-8798-4000-a46c-f990bffb3000",
+            "volume": 100
+          }
+        },
+        "9dde1b40-99dc-4000-af84-d3768da04000": {
+          "id": "9dde1b40-99dc-4000-af84-d3768da04000",
+          "name": "Giraffe Game ARAB 3  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 3  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "748e99be-080b-4000-a91c-7254ffd37000",
+            "volume": 100
+          }
+        },
+        "12771533-ad8c-4000-a95b-8e956fd33000": {
+          "id": "12771533-ad8c-4000-a95b-8e956fd33000",
+          "name": "Giraffe Game ARAB 4  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 4  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "7a3a9510-c048-4000-a19b-03c84a9ed000",
+            "volume": 100
+          }
+        },
+        "13ee8e4f-006b-4000-af11-974942a7c000": {
+          "id": "13ee8e4f-006b-4000-af11-974942a7c000",
+          "name": "Giraffe Game ARAB 5  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 5  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "cc309eee-38b1-4000-a85e-3f3a6a3b8000",
+            "volume": 100
+          }
+        },
+        "22123fb7-62a6-4000-a22a-3fbc13eef000": {
+          "id": "22123fb7-62a6-4000-a22a-3fbc13eef000",
+          "name": "Giraffe Game ARAB 6  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 6  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "e792f976-db9c-4000-ae31-e96d65a65000",
+            "volume": 100
+          }
+        },
+        "0f6c19cc-a7ee-4000-aab4-91d69185e000": {
+          "id": "0f6c19cc-a7ee-4000-aab4-91d69185e000",
+          "name": "Giraffe Game ARAB 7  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 7  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "d7afc82f-2f50-4000-ae90-52162b7ee000",
+            "volume": 100
+          }
+        },
+        "57dc92ec-6805-4000-ad76-8449984f3000": {
+          "id": "57dc92ec-6805-4000-ad76-8449984f3000",
+          "name": "Giraffe Game ARAB 8  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 8  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "7f8eb554-acaf-4000-ae66-35f6b887e000",
+            "volume": 100
+          }
+        },
+        "8950274f-11c1-4000-a482-f0998dc7a000": {
+          "id": "8950274f-11c1-4000-a482-f0998dc7a000",
+          "name": "Giraffe Game ARAB 9  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 9  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "2fcca0aa-cd16-4000-a114-70075cab6000",
+            "volume": 100
+          }
+        },
+        "d7e5d090-072a-4000-a39b-4189dd5a4000": {
+          "id": "d7e5d090-072a-4000-a39b-4189dd5a4000",
+          "name": "Giraffe Game HEB 10 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 10 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "8f76559d-2983-4000-a090-5fb3bcd2a000",
+            "volume": 100
+          }
+        },
+        "2e7b7c36-76f8-4000-aec9-4088d2331000": {
+          "id": "2e7b7c36-76f8-4000-aec9-4088d2331000",
+          "name": "Giraffe Game HEB 11 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 11 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "a19b62eb-cb33-4000-a4db-786db6144000",
+            "volume": 100
+          }
+        },
+        "94efa022-d942-4000-ab63-d28efc40e000": {
+          "id": "94efa022-d942-4000-ab63-d28efc40e000",
+          "name": "Giraffe Game HEB 12 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 12 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "6d712f7b-86f7-4000-a8f2-6cf694958000",
+            "volume": 100
+          }
+        },
+        "423ebc4f-9a9e-4000-aee8-71e6b78bb000": {
+          "id": "423ebc4f-9a9e-4000-aee8-71e6b78bb000",
+          "name": "Giraffe Game HEB 13 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 13 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "3a7ec72b-e5c4-4000-af8d-06bd20273000",
+            "volume": 100
+          }
+        },
+        "97c41ebd-07ca-4000-a4a5-15744c35c000": {
+          "id": "97c41ebd-07ca-4000-a4a5-15744c35c000",
+          "name": "Giraffe Game HEB 2 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 2 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "0000a159-ac75-4000-a947-3e4f5f330000",
+            "volume": 100
+          }
+        },
+        "9e854918-45dd-4000-ad40-c6eca8476000": {
+          "id": "9e854918-45dd-4000-ad40-c6eca8476000",
+          "name": "Giraffe Game HEB 3 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 3 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "f7363f08-ae1a-4000-a591-91ec0564c000",
+            "volume": 100
+          }
+        },
+        "6820af60-08f8-4000-ac78-c42373f82000": {
+          "id": "6820af60-08f8-4000-ac78-c42373f82000",
+          "name": "Giraffe Game HEB 4 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 4 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "cdc516bc-01a1-4000-a5e1-a9aac8331000",
+            "volume": 100
+          }
+        },
+        "0831f48e-d03b-4000-aa5c-d4c4738c7000": {
+          "id": "0831f48e-d03b-4000-aa5c-d4c4738c7000",
+          "name": "Giraffe Game HEB 5 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 5 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "4f0d2c96-aa8b-4000-a054-e2464236b000",
+            "volume": 100
+          }
+        },
+        "a9b492d0-cd41-4000-a775-ee057f0a9000": {
+          "id": "a9b492d0-cd41-4000-a775-ee057f0a9000",
+          "name": "Giraffe Game HEB 6 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 6 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "adacc99f-83b1-4000-ac7e-9b571dcbb000",
+            "volume": 100
+          }
+        },
+        "ca74f040-15fb-4000-acf0-78350c224000": {
+          "id": "ca74f040-15fb-4000-acf0-78350c224000",
+          "name": "Giraffe Game HEB 7 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 7 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "067cf2d1-7b72-4000-ac02-8a5a17ec1000",
+            "volume": 100
+          }
+        },
+        "b97bda6b-8b2f-4000-abb2-b691d4503000": {
+          "id": "b97bda6b-8b2f-4000-abb2-b691d4503000",
+          "name": "Giraffe Game HEB 8 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 8 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "969d1ec0-33db-4000-aa23-15609c4d0000",
+            "volume": 100
+          }
+        },
+        "8ed1b714-a94a-4000-a6da-0de4bc7a9000": {
+          "id": "8ed1b714-a94a-4000-a6da-0de4bc7a9000",
+          "name": "Giraffe Game HEB 9 sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game HEB 9 sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "aed085f8-3380-4000-aa55-95de6f085000",
+            "volume": 100
+          }
+        },
+        "f5725964-95b1-4000-a2c3-b63e3d522000": {
+          "id": "f5725964-95b1-4000-a2c3-b63e3d522000",
+          "name": "Giraffe Game ENG 10  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 10  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "a0888a7c-47fd-4000-a7b0-2870c492b000",
+            "volume": 100
+          }
+        },
+        "6a1ffa91-9197-4000-a40f-7182173e9000": {
+          "id": "6a1ffa91-9197-4000-a40f-7182173e9000",
+          "name": "Giraffe Game ENG 11  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 11  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "ddcc7ea2-c168-4000-af1b-5ec029b3d000",
+            "volume": 100
+          }
+        },
+        "6d035936-6668-4000-ac10-d1f34ff28000": {
+          "id": "6d035936-6668-4000-ac10-d1f34ff28000",
+          "name": "Giraffe Game ENG 12  sound V1 16-1-23_1.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 12  sound V1 16-1-23_1.wav",
+            "type": "Audio",
+            "assetId": "8e846d61-29f2-4000-a8b4-7b447e158000",
+            "volume": 100
+          }
+        },
+        "3ff4da99-6c55-4000-ab9d-c0031c994000": {
+          "id": "3ff4da99-6c55-4000-ab9d-c0031c994000",
+          "name": "Giraffe Game ENG 13  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 13  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "f6a5c2ef-6c15-4000-a5e7-0b3ea42a8000",
+            "volume": 100
+          }
+        },
+        "1a68219f-bdca-4000-a278-35577281e000": {
+          "id": "1a68219f-bdca-4000-a278-35577281e000",
+          "name": "Giraffe Game ENG 2  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 2  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "f61fe6e4-ed7c-4000-a3a9-48dc56918000",
+            "volume": 100
+          }
+        },
+        "2a0e8855-5f17-4000-a29d-d6f6a9e6d000": {
+          "id": "2a0e8855-5f17-4000-a29d-d6f6a9e6d000",
+          "name": "Giraffe Game ENG 3  sound V1 16-1-23_1.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 3  sound V1 16-1-23_1.wav",
+            "type": "Audio",
+            "assetId": "e366cad6-ed34-4000-a3c7-c925b21c2000",
+            "volume": 100
+          }
+        },
+        "2bee43e4-7659-4000-acb5-eac42a795000": {
+          "id": "2bee43e4-7659-4000-acb5-eac42a795000",
+          "name": "Giraffe Game ENG 4  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 4  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "1c9be108-11e7-4000-a54e-e2d691045000",
+            "volume": 100
+          }
+        },
+        "e035546c-86af-4000-a4b2-7db310e79000": {
+          "id": "e035546c-86af-4000-a4b2-7db310e79000",
+          "name": "Giraffe Game ENG 5  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 5  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "ab797c18-450d-4000-ad0f-14b587234000",
+            "volume": 100
+          }
+        },
+        "1542be45-ada8-4000-a00b-a83c08873000": {
+          "id": "1542be45-ada8-4000-a00b-a83c08873000",
+          "name": "Giraffe Game ENG 6  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 6  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "0cd93350-bc91-4000-ab4d-42e64c506000",
+            "volume": 100
+          }
+        },
+        "899b8dcb-8f22-4000-ad03-ebce22e72000": {
+          "id": "899b8dcb-8f22-4000-ad03-ebce22e72000",
+          "name": "Giraffe Game ENG 7  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 7  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "3fd55235-38ad-4000-a389-78b8af0aa000",
+            "volume": 100
+          }
+        },
+        "2e495ca8-304e-4000-a627-b4e4636d8000": {
+          "id": "2e495ca8-304e-4000-a627-b4e4636d8000",
+          "name": "Giraffe Game ENG 8  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 8  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "800e7269-2c9c-4000-aa5f-348ea5e71000",
+            "volume": 100
+          }
+        },
+        "7920e4f4-5b67-4000-a9aa-c2211c562000": {
+          "id": "7920e4f4-5b67-4000-a9aa-c2211c562000",
+          "name": "Giraffe Game ENG 9  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ENG 9  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "73095ff6-cfe7-4000-a004-094a5511a000",
+            "volume": 100
+          }
+        }
+      },
+      "sequencesByParentId": {
+        "38fcbffe-825a-4000-aae7-95ec40def000": {
+          "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+          "parentType": 1,
+          "sequence": [
+            "3d469afe-dce0-4000-afe8-f96bd4ffb000",
+            "d6851760-4cc4-4000-a630-3e596cf83000",
+            "54d24488-1918-4000-ab13-d46b2480f000",
+            "4d708694-5bc0-4000-acc7-ff87cfcad000",
+            "bc67fa71-ffe8-4000-a7ed-33ffcc886000",
+            "9dde1b40-99dc-4000-af84-d3768da04000",
+            "12771533-ad8c-4000-a95b-8e956fd33000",
+            "13ee8e4f-006b-4000-af11-974942a7c000",
+            "22123fb7-62a6-4000-a22a-3fbc13eef000",
+            "0f6c19cc-a7ee-4000-aab4-91d69185e000",
+            "57dc92ec-6805-4000-ad76-8449984f3000",
+            "8950274f-11c1-4000-a482-f0998dc7a000"
+          ]
+        },
+        "4fe0f919-212a-4000-a75d-325d2fc9d000": {
+          "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+          "parentType": 1,
+          "sequence": [
+            "d7e5d090-072a-4000-a39b-4189dd5a4000",
+            "2e7b7c36-76f8-4000-aec9-4088d2331000",
+            "94efa022-d942-4000-ab63-d28efc40e000",
+            "423ebc4f-9a9e-4000-aee8-71e6b78bb000",
+            "97c41ebd-07ca-4000-a4a5-15744c35c000",
+            "9e854918-45dd-4000-ad40-c6eca8476000",
+            "6820af60-08f8-4000-ac78-c42373f82000",
+            "0831f48e-d03b-4000-aa5c-d4c4738c7000",
+            "a9b492d0-cd41-4000-a775-ee057f0a9000",
+            "ca74f040-15fb-4000-acf0-78350c224000",
+            "b97bda6b-8b2f-4000-abb2-b691d4503000",
+            "8ed1b714-a94a-4000-a6da-0de4bc7a9000"
+          ]
+        },
+        "2386da56-762a-4000-a43b-2b01c1e2d000": {
+          "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+          "parentType": 1,
+          "sequence": [
+            "f5725964-95b1-4000-a2c3-b63e3d522000",
+            "6a1ffa91-9197-4000-a40f-7182173e9000",
+            "6d035936-6668-4000-ac10-d1f34ff28000",
+            "3ff4da99-6c55-4000-ab9d-c0031c994000",
+            "1a68219f-bdca-4000-a278-35577281e000",
+            "2a0e8855-5f17-4000-a29d-d6f6a9e6d000",
+            "2bee43e4-7659-4000-acb5-eac42a795000",
+            "e035546c-86af-4000-a4b2-7db310e79000",
+            "1542be45-ada8-4000-a00b-a83c08873000",
+            "899b8dcb-8f22-4000-ad03-ebce22e72000",
+            "2e495ca8-304e-4000-a627-b4e4636d8000",
+            "7920e4f4-5b67-4000-a9aa-c2211c562000"
+          ]
+        }
+      }
+    },
+    "events": {
+      "99998683-f65d-4000-aa5a-bfc45df31000": {
+        "id": "99998683-f65d-4000-aa5a-bfc45df31000",
+        "name": "Entry_ev_ev",
+        "type": "Gpio",
+        "mediaStateId": "71bbf419-9803-4000-a7ea-a68e8a8a6000",
+        "disabled": false,
+        "data": {
+          "buttonNumber": 0,
+          "buttonDirection": "Down",
+          "pressContinuous": null
+        },
+        "action": "None"
+      },
+      "7f992fc0-ee90-4000-a42c-590a33780000": {
+        "id": "7f992fc0-ee90-4000-a42c-590a33780000",
+        "name": "Entry_ev_ev",
+        "type": "Gpio",
+        "mediaStateId": "71bbf419-9803-4000-a7ea-a68e8a8a6000",
+        "disabled": false,
+        "data": {
+          "buttonNumber": 1,
+          "buttonDirection": "Down",
+          "pressContinuous": null
+        },
+        "action": "None"
+      },
+      "0f62191d-3b6d-4000-aa91-96f094dd4000": {
+        "id": "0f62191d-3b6d-4000-aa91-96f094dd4000",
+        "name": "Entry_ev_ev",
+        "type": "Gpio",
+        "mediaStateId": "71bbf419-9803-4000-a7ea-a68e8a8a6000",
+        "disabled": false,
+        "data": {
+          "buttonNumber": 2,
+          "buttonDirection": "Down",
+          "pressContinuous": null
+        },
+        "action": "None"
+      },
+      "0c1ab295-ce9a-4000-ad1f-be479bb7c000": {
+        "id": "0c1ab295-ce9a-4000-ad1f-be479bb7c000",
+        "name": "Choose Arab_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "f85713ee-578e-4000-a2fb-a4c028b8e000",
+        "disabled": false,
+        "data": {
+          "interval": 1
+        },
+        "action": "None"
+      },
+      "eca38e2b-8d11-4000-acbf-6d7383b46000": {
+        "id": "eca38e2b-8d11-4000-acbf-6d7383b46000",
+        "name": "Choose English_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "25c45175-f2ef-4000-aab8-8216f9aac000",
+        "disabled": false,
+        "data": {
+          "interval": 1
+        },
+        "action": "None"
+      },
+      "72158ca4-965e-4000-ac17-ebe9c1fbe000": {
+        "id": "72158ca4-965e-4000-ac17-ebe9c1fbe000",
+        "name": "Choose Hebrew_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "9b3d7fea-b44e-4000-a400-16ec82e85000",
+        "disabled": false,
+        "data": {
+          "interval": 1
+        },
+        "action": "None"
+      },
+      "3df7c236-0a91-4000-a411-d64b2d4e7000": {
+        "id": "3df7c236-0a91-4000-a411-d64b2d4e7000",
+        "name": "Pump Enabled_ev_ev",
+        "type": "Gpio",
+        "mediaStateId": "64351ce6-c51c-4000-a2c8-c05afbd35000",
+        "disabled": false,
+        "data": {
+          "buttonNumber": 3,
+          "buttonDirection": "Down",
+          "pressContinuous": null
+        },
+        "action": "None"
+      },
+      "b9af83fd-4556-4000-adc7-3c419caeb000": {
+        "id": "b9af83fd-4556-4000-adc7-3c419caeb000",
+        "name": "Pump Enabled_ev_ev",
+        "type": "Gpio",
+        "mediaStateId": "64351ce6-c51c-4000-a2c8-c05afbd35000",
+        "disabled": false,
+        "data": {
+          "buttonNumber": 4,
+          "buttonDirection": "Down",
+          "pressContinuous": null
+        },
+        "action": "None"
+      },
+      "f2898033-94af-4000-af5d-4c05328a0000": {
+        "id": "f2898033-94af-4000-af5d-4c05328a0000",
+        "name": "First Statement Pass_ev_ev",
+        "type": "Gpio",
+        "mediaStateId": "de579df9-2847-4000-adf8-995b6a3bc000",
+        "disabled": false,
+        "data": {
+          "buttonNumber": 4,
+          "buttonDirection": "Down",
+          "pressContinuous": null
+        },
+        "action": "None"
+      },
+      "cc4082b8-d6c8-4000-a8a7-77c5c74f6000": {
+        "id": "cc4082b8-d6c8-4000-a8a7-77c5c74f6000",
+        "name": "First Statement Pass_ev_ev",
+        "type": "Gpio",
+        "mediaStateId": "de579df9-2847-4000-adf8-995b6a3bc000",
+        "disabled": false,
+        "data": {
+          "buttonNumber": 3,
+          "buttonDirection": "Down",
+          "pressContinuous": null
+        },
+        "action": "None"
+      },
+      "5dd1b145-7988-4000-a846-17c29d71b000": {
+        "id": "5dd1b145-7988-4000-a846-17c29d71b000",
+        "name": "Top Height Pass_ev_ev",
+        "type": "Gpio",
+        "mediaStateId": "8c460f0e-62e3-4000-adb9-e025619da000",
+        "disabled": false,
+        "data": {
+          "buttonNumber": 3,
+          "buttonDirection": "Down",
+          "pressContinuous": null
+        },
+        "action": "None"
+      },
+      "e96377fb-cf70-4000-ae76-35020c026000": {
+        "id": "e96377fb-cf70-4000-ae76-35020c026000",
+        "name": "Second Statement Pass_ev_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "9838553d-1d50-4000-a34f-2e5cde871000",
+        "disabled": false,
+        "data": {
+          "interval": 15
+        },
+        "action": "None"
+      },
+      "a4e76379-d040-4000-af1e-bd968a749000": {
+        "id": "a4e76379-d040-4000-af1e-bd968a749000",
+        "name": "Entry_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+        "disabled": false,
+        "data": {
+          "data": "heb",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "c63cc808-a2db-4000-ad77-51b106333000": {
+        "id": "c63cc808-a2db-4000-ad77-51b106333000",
+        "name": "Entry_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+        "disabled": false,
+        "data": {
+          "data": "eng",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "e87200f5-52b2-4000-ac9b-cba63b61e000": {
+        "id": "e87200f5-52b2-4000-ac9b-cba63b61e000",
+        "name": "Entry_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+        "disabled": false,
+        "data": {
+          "data": "arab",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "636e96e2-eb6b-4000-a649-1b3f8079d000": {
+        "id": "636e96e2-eb6b-4000-a649-1b3f8079d000",
+        "name": "Hebrew Start_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "c525f380-77a9-4000-a5de-f54a36121000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "28ef3452-3c8d-4000-af9c-8a0570a2c000": {
+        "id": "28ef3452-3c8d-4000-af9c-8a0570a2c000",
+        "name": "English Start_ev_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "e6dcfc8d-e152-4000-a95f-a5c911183000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "3ededcf8-4e91-4000-af82-d4d2c9a25000": {
+        "id": "3ededcf8-4e91-4000-af82-d4d2c9a25000",
+        "name": "Arab Start_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "8498d7dd-4d2f-4000-ab6f-371dd1d50000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "1c0f2eea-e39d-4000-a811-5984f5774000": {
+        "id": "1c0f2eea-e39d-4000-a811-5984f5774000",
+        "name": "Timeout Event",
+        "type": "Timer",
+        "mediaStateId": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+        "disabled": false,
+        "data": {
+          "interval": 15
+        },
+        "action": "SeqFwd"
+      },
+      "a15a16c2-c78e-4000-a634-34c0427c2000": {
+        "id": "a15a16c2-c78e-4000-a634-34c0427c2000",
+        "name": "Timeout Event",
+        "type": "Timer",
+        "mediaStateId": "2386da56-762a-4000-a43b-2b01c1e2d000",
+        "disabled": false,
+        "data": {
+          "interval": 15
+        },
+        "action": "SeqFwd"
+      },
+      "93492a48-4ea7-4000-a2ec-502f22187000": {
+        "id": "93492a48-4ea7-4000-a2ec-502f22187000",
+        "name": "Timeout Event",
+        "type": "Timer",
+        "mediaStateId": "38fcbffe-825a-4000-aae7-95ec40def000",
+        "disabled": false,
+        "data": {
+          "interval": 15
+        },
+        "action": "SeqFwd"
+      },
+      "b778175d-72d0-4000-ab17-5525090fd000": {
+        "id": "b778175d-72d0-4000-ab17-5525090fd000",
+        "name": "Hebrew Statements_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+        "disabled": false,
+        "data": {
+          "data": "stop_audio",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "6e05c519-8ca5-4000-a758-7ec1b78be000": {
+        "id": "6e05c519-8ca5-4000-a758-7ec1b78be000",
+        "name": "English Statements_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "2386da56-762a-4000-a43b-2b01c1e2d000",
+        "disabled": false,
+        "data": {
+          "data": "stop_audio",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "575432a6-0a34-4000-a4b0-9ac3482eb000": {
+        "id": "575432a6-0a34-4000-a4b0-9ac3482eb000",
+        "name": "Arab Statements_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "38fcbffe-825a-4000-aae7-95ec40def000",
+        "disabled": false,
+        "data": {
+          "data": "stop_audio",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "f5b4aa10-7ed7-4000-ab79-ea5b90689000": {
+        "id": "f5b4aa10-7ed7-4000-ab79-ea5b90689000",
+        "name": "wait hebrew_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "bb3bc172-8302-4000-a047-cc534e873000",
+        "disabled": false,
+        "data": {
+          "interval": 15
+        },
+        "action": "None"
+      },
+      "1bbb08e2-0c2a-4000-a47d-363c5578c000": {
+        "id": "1bbb08e2-0c2a-4000-a47d-363c5578c000",
+        "name": "wait hebrew_ev_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "0b519708-3b55-4000-a1ec-bf93d13ef000",
+        "disabled": false,
+        "data": {
+          "interval": 15
+        },
+        "action": "None"
+      },
+      "d3cd9fcd-d3ac-4000-a959-302ae1a75000": {
+        "id": "d3cd9fcd-d3ac-4000-a959-302ae1a75000",
+        "name": "wait hebrew_ev_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "2ac04928-c5ee-4000-afe4-1a6a5a2f5000",
+        "disabled": false,
+        "data": {
+          "interval": 15
+        },
+        "action": "None"
+      },
+      "7f5e8786-2dfd-4000-aaf9-91c3fcba5000": {
+        "id": "7f5e8786-2dfd-4000-aaf9-91c3fcba5000",
+        "name": "Event Handler_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "862c21bd-c8b3-4000-a685-c0fa04537000",
+        "disabled": false,
+        "data": {
+          "data": "heartbeat",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "0d332ae7-f4e6-4000-abb8-d721cb538000": {
+        "id": "0d332ae7-f4e6-4000-abb8-d721cb538000",
+        "name": "heartbeat-sound-effect-111218.mp3_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "1e6f08b4-b381-4000-a564-697e98ac2000",
+        "disabled": false,
+        "data": {
+          "data": "stop_audio",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "01a3e622-daa3-4000-ac8f-f76f8e9c8000": {
+        "id": "01a3e622-daa3-4000-ac8f-f76f8e9c8000",
+        "name": "Hebrew Statements_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "3e4437fa-4c97-4000-ae55-c4485a4f3000": {
+        "id": "3e4437fa-4c97-4000-ae55-c4485a4f3000",
+        "name": "English Statements_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "2386da56-762a-4000-a43b-2b01c1e2d000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "324a0a1f-64ee-4000-a5d5-2c8d58354000": {
+        "id": "324a0a1f-64ee-4000-a5d5-2c8d58354000",
+        "name": "Arab Statements_ev_ev",
+        "type": "MediaEnd",
+        "mediaStateId": "38fcbffe-825a-4000-aae7-95ec40def000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "57d0ab25-4373-4000-a11f-f58186c5d000": {
+        "id": "57d0ab25-4373-4000-a11f-f58186c5d000",
+        "name": "wait hebrew_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "bb3bc172-8302-4000-a047-cc534e873000",
+        "disabled": false,
+        "data": {
+          "data": "stop_audio",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "2ed2638d-9d93-4000-a576-1e93daeb1000": {
+        "id": "2ed2638d-9d93-4000-a576-1e93daeb1000",
+        "name": "wait English_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "0b519708-3b55-4000-a1ec-bf93d13ef000",
+        "disabled": false,
+        "data": {
+          "data": "stop_audio",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "04cc1102-c8ef-4000-ae38-82c426ad6000": {
+        "id": "04cc1102-c8ef-4000-ae38-82c426ad6000",
+        "name": "wait arab_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "2ac04928-c5ee-4000-afe4-1a6a5a2f5000",
+        "disabled": false,
+        "data": {
+          "data": "stop_audio",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      }
+    },
+    "transitions": {
+      "transitionsById": {
+        "31428a25-0345-4000-aeac-a24b69a45000": {
+          "id": "31428a25-0345-4000-aeac-a24b69a45000",
+          "name": "Entry_ev_tr",
+          "eventId": "99998683-f65d-4000-aa5a-bfc45df31000",
+          "targetMediaStateId": "9b3d7fea-b44e-4000-a400-16ec82e85000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "ae145d0b-427c-4000-adbb-fd2f07083000": {
+          "id": "ae145d0b-427c-4000-adbb-fd2f07083000",
+          "name": "Entry_ev_tr",
+          "eventId": "7f992fc0-ee90-4000-a42c-590a33780000",
+          "targetMediaStateId": "25c45175-f2ef-4000-aab8-8216f9aac000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "f38ddd0c-fcd0-4000-af6d-a1ece35d4000": {
+          "id": "f38ddd0c-fcd0-4000-af6d-a1ece35d4000",
+          "name": "Entry_ev_tr",
+          "eventId": "0f62191d-3b6d-4000-aa91-96f094dd4000",
+          "targetMediaStateId": "f85713ee-578e-4000-a2fb-a4c028b8e000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "e0b839c3-7a6b-4000-a9dd-43e8f5650000": {
+          "id": "e0b839c3-7a6b-4000-a9dd-43e8f5650000",
+          "name": "Choose Arab_ev_tr",
+          "eventId": "0c1ab295-ce9a-4000-ad1f-be479bb7c000",
+          "targetMediaStateId": "64351ce6-c51c-4000-a2c8-c05afbd35000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "3abc1d35-415c-4000-aae2-aed9c3cb2000": {
+          "id": "3abc1d35-415c-4000-aae2-aed9c3cb2000",
+          "name": "Choose English_ev_tr",
+          "eventId": "eca38e2b-8d11-4000-acbf-6d7383b46000",
+          "targetMediaStateId": "64351ce6-c51c-4000-a2c8-c05afbd35000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "474da552-9f6a-4000-ab1d-1e808e7b0000": {
+          "id": "474da552-9f6a-4000-ab1d-1e808e7b0000",
+          "name": "Choose Hebrew_ev_tr",
+          "eventId": "72158ca4-965e-4000-ac17-ebe9c1fbe000",
+          "targetMediaStateId": "64351ce6-c51c-4000-a2c8-c05afbd35000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "53e75b74-0277-4000-a7ac-cd60b4076000": {
+          "id": "53e75b74-0277-4000-a7ac-cd60b4076000",
+          "name": "Pump Enabled_ev_tr",
+          "eventId": "3df7c236-0a91-4000-a411-d64b2d4e7000",
+          "targetMediaStateId": "de579df9-2847-4000-adf8-995b6a3bc000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "640e1580-cdf0-4000-af4d-b7ed0945a000": {
+          "id": "640e1580-cdf0-4000-af4d-b7ed0945a000",
+          "name": "Pump Enabled_ev_tr",
+          "eventId": "b9af83fd-4556-4000-adc7-3c419caeb000",
+          "targetMediaStateId": "8c460f0e-62e3-4000-adb9-e025619da000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "262fc157-f697-4000-a604-6fdeed9c7000": {
+          "id": "262fc157-f697-4000-a604-6fdeed9c7000",
+          "name": "First Statement Pass_ev_tr",
+          "eventId": "f2898033-94af-4000-af5d-4c05328a0000",
+          "targetMediaStateId": "8c460f0e-62e3-4000-adb9-e025619da000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7bb4785e-a74e-4000-a4d9-72cf94198000": {
+          "id": "7bb4785e-a74e-4000-a4d9-72cf94198000",
+          "name": "First Statement Pass_ev_tr",
+          "eventId": "cc4082b8-d6c8-4000-a8a7-77c5c74f6000",
+          "targetMediaStateId": "9838553d-1d50-4000-a34f-2e5cde871000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "3300faad-2edd-4000-ab48-d1a01c72c000": {
+          "id": "3300faad-2edd-4000-ab48-d1a01c72c000",
+          "name": "Top Height Pass_ev_tr",
+          "eventId": "5dd1b145-7988-4000-a846-17c29d71b000",
+          "targetMediaStateId": "9838553d-1d50-4000-a34f-2e5cde871000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "bd04d2b4-23c7-4000-a520-ce8ca4e15000": {
+          "id": "bd04d2b4-23c7-4000-a520-ce8ca4e15000",
+          "name": "Second Statement Pass_tr_ev",
+          "eventId": "e96377fb-cf70-4000-ae76-35020c026000",
+          "targetMediaStateId": "71bbf419-9803-4000-a7ea-a68e8a8a6000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "15f37cbc-150f-4000-a79e-b85ae6080000": {
+          "id": "15f37cbc-150f-4000-a79e-b85ae6080000",
+          "name": "Entry_ev_tr",
+          "eventId": "a4e76379-d040-4000-af1e-bd968a749000",
+          "targetMediaStateId": "c525f380-77a9-4000-a5de-f54a36121000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "c52f348e-8f95-4000-a7f4-245f58faf000": {
+          "id": "c52f348e-8f95-4000-a7f4-245f58faf000",
+          "name": "Entry_ev_tr",
+          "eventId": "c63cc808-a2db-4000-ad77-51b106333000",
+          "targetMediaStateId": "e6dcfc8d-e152-4000-a95f-a5c911183000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "e55a16c3-673f-4000-a62a-1b5fd705c000": {
+          "id": "e55a16c3-673f-4000-a62a-1b5fd705c000",
+          "name": "Entry_ev_tr",
+          "eventId": "e87200f5-52b2-4000-ac9b-cba63b61e000",
+          "targetMediaStateId": "8498d7dd-4d2f-4000-ab6f-371dd1d50000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "543aa3c2-3ae9-4000-a5cb-d1af7050f000": {
+          "id": "543aa3c2-3ae9-4000-a5cb-d1af7050f000",
+          "name": "Hebrew Start_ev_tr",
+          "eventId": "636e96e2-eb6b-4000-a649-1b3f8079d000",
+          "targetMediaStateId": "bb3bc172-8302-4000-a047-cc534e873000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "fac12f5b-6575-4000-a838-9a7acafb6000": {
+          "id": "fac12f5b-6575-4000-a838-9a7acafb6000",
+          "name": "English Start_ev_tr",
+          "eventId": "28ef3452-3c8d-4000-af9c-8a0570a2c000",
+          "targetMediaStateId": "0b519708-3b55-4000-a1ec-bf93d13ef000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "facecc57-2559-4000-a618-b106a9463000": {
+          "id": "facecc57-2559-4000-a618-b106a9463000",
+          "name": "Arab Start_ev_tr",
+          "eventId": "3ededcf8-4e91-4000-af82-d4d2c9a25000",
+          "targetMediaStateId": "2ac04928-c5ee-4000-afe4-1a6a5a2f5000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "3b45c32e-55ae-4000-a986-25f3a947b000": {
+          "id": "3b45c32e-55ae-4000-a986-25f3a947b000",
+          "name": "Hebrew Statements_ev_tr",
+          "eventId": "b778175d-72d0-4000-ab17-5525090fd000",
+          "targetMediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "2611af3e-9890-4000-a240-85a61259e000": {
+          "id": "2611af3e-9890-4000-a240-85a61259e000",
+          "name": "English Statements_ev_tr",
+          "eventId": "6e05c519-8ca5-4000-a758-7ec1b78be000",
+          "targetMediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "c2b87302-b9f5-4000-a953-9c1eb63dd000": {
+          "id": "c2b87302-b9f5-4000-a953-9c1eb63dd000",
+          "name": "Arab Statements_ev_tr",
+          "eventId": "575432a6-0a34-4000-a4b0-9ac3482eb000",
+          "targetMediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "9a842008-925e-4000-a181-0f20f97b5000": {
+          "id": "9a842008-925e-4000-a181-0f20f97b5000",
+          "name": "wait hebrew_ev_tr",
+          "eventId": "f5b4aa10-7ed7-4000-ab79-ea5b90689000",
+          "targetMediaStateId": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "a92987ad-df0d-4000-aeb2-5967cd1ce000": {
+          "id": "a92987ad-df0d-4000-aeb2-5967cd1ce000",
+          "name": "wait hebrew_tr_ev",
+          "eventId": "1bbb08e2-0c2a-4000-a47d-363c5578c000",
+          "targetMediaStateId": "2386da56-762a-4000-a43b-2b01c1e2d000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "f87eefe5-d48a-4000-ae7f-5cfeb1273000": {
+          "id": "f87eefe5-d48a-4000-ae7f-5cfeb1273000",
+          "name": "wait hebrew_tr_ev",
+          "eventId": "d3cd9fcd-d3ac-4000-a959-302ae1a75000",
+          "targetMediaStateId": "38fcbffe-825a-4000-aae7-95ec40def000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7e968b76-63ff-4000-a66e-79aa5e0fb000": {
+          "id": "7e968b76-63ff-4000-a66e-79aa5e0fb000",
+          "name": "Event Handler_ev_tr",
+          "eventId": "7f5e8786-2dfd-4000-aaf9-91c3fcba5000",
+          "targetMediaStateId": "1e6f08b4-b381-4000-a564-697e98ac2000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "8716f283-3ad8-4000-a1e7-ed7a93dd5000": {
+          "id": "8716f283-3ad8-4000-a1e7-ed7a93dd5000",
+          "name": "heartbeat-sound-effect-111218.mp3_ev_tr",
+          "eventId": "0d332ae7-f4e6-4000-abb8-d721cb538000",
+          "targetMediaStateId": "862c21bd-c8b3-4000-a685-c0fa04537000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "275ea4d4-e526-4000-a43c-b91fdbbe8000": {
+          "id": "275ea4d4-e526-4000-a43c-b91fdbbe8000",
+          "name": "Hebrew Statements_ev_tr",
+          "eventId": "01a3e622-daa3-4000-ac8f-f76f8e9c8000",
+          "targetMediaStateId": "bb3bc172-8302-4000-a047-cc534e873000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "fccb2679-b56b-4000-a133-45875b4d8000": {
+          "id": "fccb2679-b56b-4000-a133-45875b4d8000",
+          "name": "English Statements_ev_tr",
+          "eventId": "3e4437fa-4c97-4000-ae55-c4485a4f3000",
+          "targetMediaStateId": "0b519708-3b55-4000-a1ec-bf93d13ef000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "2c193157-0ca8-4000-a904-344190cae000": {
+          "id": "2c193157-0ca8-4000-a904-344190cae000",
+          "name": "Arab Statements_ev_tr",
+          "eventId": "324a0a1f-64ee-4000-a5d5-2c8d58354000",
+          "targetMediaStateId": "2ac04928-c5ee-4000-afe4-1a6a5a2f5000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "ba55e8d9-35ba-4000-a249-36d2066c0000": {
+          "id": "ba55e8d9-35ba-4000-a249-36d2066c0000",
+          "name": "wait hebrew_ev_tr",
+          "eventId": "57d0ab25-4373-4000-a11f-f58186c5d000",
+          "targetMediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "bd4fff4d-d71f-4000-a8e7-db61bcfd1000": {
+          "id": "bd4fff4d-d71f-4000-a8e7-db61bcfd1000",
+          "name": "wait English_ev_tr",
+          "eventId": "2ed2638d-9d93-4000-a576-1e93daeb1000",
+          "targetMediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "e75ea57b-5437-4000-a6fa-2f9f38a95000": {
+          "id": "e75ea57b-5437-4000-a6fa-2f9f38a95000",
+          "name": "wait arab_ev_tr",
+          "eventId": "04cc1102-c8ef-4000-ae38-82c426ad6000",
+          "targetMediaStateId": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+          "type": "No effect",
+          "duration": 0
+        }
+      },
+      "sequencesByEventId": {}
+    },
+    "commands": {
+      "commandsById": {
+        "9f5d56a9-3e6e-4000-a779-91f84b845000": {
+          "id": "9f5d56a9-3e6e-4000-a779-91f84b845000",
+          "name": "GPIO on",
+          "operations": [
+            {
+              "type": "gpioOn",
+              "data": {
+                "gpioNumber": 6
+              }
+            }
+          ],
+          "sequenceId": "4c6446e8-813b-4000-a634-56ba53e86000"
+        },
+        "43c99557-0394-4000-a714-60ff2ad0b000": {
+          "id": "43c99557-0394-4000-a714-60ff2ad0b000",
+          "name": "GPIO off",
+          "operations": [
+            {
+              "type": "gpioOff",
+              "data": {
+                "gpioNumber": 6
+              }
+            }
+          ],
+          "sequenceId": "bb03763f-bda3-4000-a812-16c80a5c5000"
+        },
+        "85d9c00d-91c2-4000-a002-7f1b93ee3000": {
+          "id": "85d9c00d-91c2-4000-a002-7f1b93ee3000",
+          "name": "GPIO off",
+          "operations": [
+            {
+              "type": "gpioOff",
+              "data": {
+                "gpioNumber": 6
+              }
+            }
+          ],
+          "sequenceId": "7297c18e-9848-4000-a613-04490d371000"
+        },
+        "5d907461-e13f-4000-a693-83a82969f000": {
+          "id": "5d907461-e13f-4000-a693-83a82969f000",
+          "name": "Send zone message",
+          "operations": [
+            {
+              "type": "sendZoneMessage",
+              "data": {
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "heb"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "36983e7b-3798-4000-ab42-041693139000"
+        },
+        "ebe3776c-72c7-4000-a3c6-b3e6cf01e000": {
+          "id": "ebe3776c-72c7-4000-a3c6-b3e6cf01e000",
+          "name": "Send zone message",
+          "operations": [
+            {
+              "type": "sendZoneMessage",
+              "data": {
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "eng"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "f529dcda-18a8-4000-a558-5ec76ee56000"
+        },
+        "1925a012-a854-4000-ad91-1703d92fd000": {
+          "id": "1925a012-a854-4000-ad91-1703d92fd000",
+          "name": "Send zone message",
+          "operations": [
+            {
+              "type": "sendZoneMessage",
+              "data": {
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "arab"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "c43d8f41-1214-4000-a646-01dfd58af000"
+        },
+        "6749cf74-1b2d-4000-a40d-b238f6bcb000": {
+          "id": "6749cf74-1b2d-4000-a40d-b238f6bcb000",
+          "name": "Send zone message",
+          "operations": [
+            {
+              "type": "sendZoneMessage",
+              "data": {
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "stop_audio"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "7297c18e-9848-4000-a613-04490d371000"
+        },
+        "4abded20-81f8-4000-a1ce-e22b0b96c000": {
+          "id": "4abded20-81f8-4000-a1ce-e22b0b96c000",
+          "name": "Send zone message",
+          "operations": [
+            {
+              "type": "sendZoneMessage",
+              "data": {
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "heartbeat"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "2c89006f-f405-4000-afb5-4e45e5255000"
+        },
+        "0e58a6fa-c9a2-4000-a851-05f3798b7000": {
+          "id": "0e58a6fa-c9a2-4000-a851-05f3798b7000",
+          "name": "Send zone message",
+          "operations": [
+            {
+              "type": "sendZoneMessage",
+              "data": {
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "heartbeat"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "71098dae-00fb-4000-a40f-163aafe5a000"
+        },
+        "331e250c-31c8-4000-af9e-b6511ffdc000": {
+          "id": "331e250c-31c8-4000-af9e-b6511ffdc000",
+          "name": "Send zone message",
+          "operations": [
+            {
+              "type": "sendZoneMessage",
+              "data": {
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "heartbeat"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "2f22e387-440d-4000-aeb5-295c1209b000"
+        }
+      },
+      "sequencesById": {
+        "4c6446e8-813b-4000-a634-56ba53e86000": {
+          "id": "4c6446e8-813b-4000-a634-56ba53e86000",
+          "type": "StateEntry",
+          "parentId": "64351ce6-c51c-4000-a2c8-c05afbd35000",
+          "sequence": [
+            "9f5d56a9-3e6e-4000-a779-91f84b845000"
+          ]
+        },
+        "bb03763f-bda3-4000-a812-16c80a5c5000": {
+          "id": "bb03763f-bda3-4000-a812-16c80a5c5000",
+          "type": "StateEntry",
+          "parentId": "8c460f0e-62e3-4000-adb9-e025619da000",
+          "sequence": [
+            "43c99557-0394-4000-a714-60ff2ad0b000"
+          ]
+        },
+        "7297c18e-9848-4000-a613-04490d371000": {
+          "id": "7297c18e-9848-4000-a613-04490d371000",
+          "type": "StateEntry",
+          "parentId": "9838553d-1d50-4000-a34f-2e5cde871000",
+          "sequence": [
+            "85d9c00d-91c2-4000-a002-7f1b93ee3000",
+            "6749cf74-1b2d-4000-a40d-b238f6bcb000"
+          ]
+        },
+        "36983e7b-3798-4000-ab42-041693139000": {
+          "id": "36983e7b-3798-4000-ab42-041693139000",
+          "type": "StateEntry",
+          "parentId": "9b3d7fea-b44e-4000-a400-16ec82e85000",
+          "sequence": [
+            "5d907461-e13f-4000-a693-83a82969f000"
+          ]
+        },
+        "f529dcda-18a8-4000-a558-5ec76ee56000": {
+          "id": "f529dcda-18a8-4000-a558-5ec76ee56000",
+          "type": "StateEntry",
+          "parentId": "25c45175-f2ef-4000-aab8-8216f9aac000",
+          "sequence": [
+            "ebe3776c-72c7-4000-a3c6-b3e6cf01e000"
+          ]
+        },
+        "c43d8f41-1214-4000-a646-01dfd58af000": {
+          "id": "c43d8f41-1214-4000-a646-01dfd58af000",
+          "type": "StateEntry",
+          "parentId": "f85713ee-578e-4000-a2fb-a4c028b8e000",
+          "sequence": [
+            "1925a012-a854-4000-ad91-1703d92fd000"
+          ]
+        },
+        "2c89006f-f405-4000-afb5-4e45e5255000": {
+          "id": "2c89006f-f405-4000-afb5-4e45e5255000",
+          "type": "StateEntry",
+          "parentId": "0b519708-3b55-4000-a1ec-bf93d13ef000",
+          "sequence": [
+            "4abded20-81f8-4000-a1ce-e22b0b96c000"
+          ]
+        },
+        "71098dae-00fb-4000-a40f-163aafe5a000": {
+          "id": "71098dae-00fb-4000-a40f-163aafe5a000",
+          "type": "StateEntry",
+          "parentId": "2ac04928-c5ee-4000-afe4-1a6a5a2f5000",
+          "sequence": [
+            "0e58a6fa-c9a2-4000-a851-05f3798b7000"
+          ]
+        },
+        "2f22e387-440d-4000-aeb5-295c1209b000": {
+          "id": "2f22e387-440d-4000-aeb5-295c1209b000",
+          "type": "StateEntry",
+          "parentId": "bb3bc172-8302-4000-a047-cc534e873000",
+          "sequence": [
+            "331e250c-31c8-4000-af9e-b6511ffdc000"
+          ]
+        }
+      }
+    },
+    "htmlSites": {},
+    "nodeApps": {},
+    "dataFeeds": {
+      "feedsById": {},
+      "sourcesById": {}
+    },
+    "userVariables": {
+      "variablesById": {},
+      "sequence": []
+    },
+    "liveText": {
+      "itemsById": {},
+      "layersByCanvasId": {},
+      "dataFeedsByGroupId": {},
+      "canvasesById": {}
+    },
+    "deviceWebPages": {},
+    "scriptPlugins": {},
+    "parserPlugins": {},
+    "videoModePlugins": {},
+    "auxiliaryFiles": {},
+    "linkedPresentations": {},
+    "partnerProducts": {},
+    "customAutorun": "0",
+    "assetMap": {
+      "856caafb-09d6-4000-a744-6141f1e15000": {
+        "id": "856caafb-09d6-4000-a744-6141f1e15000",
+        "name": "Giraffe Game ARAB 10  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 10  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "6aa07e30-1c49-4000-ac03-3852975b6000": {
+        "id": "6aa07e30-1c49-4000-ac03-3852975b6000",
+        "name": "Giraffe Game ARAB 11  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 11  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "8a8d7754-709c-4000-aa53-b7cddd817000": {
+        "id": "8a8d7754-709c-4000-aa53-b7cddd817000",
+        "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 12  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "c50dbed5-98f3-4000-a250-dbf89d5cf000": {
+        "id": "c50dbed5-98f3-4000-a250-dbf89d5cf000",
+        "name": "Giraffe Game ARAB 13  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 13  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "d0f4b5a2-8798-4000-a46c-f990bffb3000": {
+        "id": "d0f4b5a2-8798-4000-a46c-f990bffb3000",
+        "name": "Giraffe Game ARAB 2  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 2  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "748e99be-080b-4000-a91c-7254ffd37000": {
+        "id": "748e99be-080b-4000-a91c-7254ffd37000",
+        "name": "Giraffe Game ARAB 3  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 3  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "7a3a9510-c048-4000-a19b-03c84a9ed000": {
+        "id": "7a3a9510-c048-4000-a19b-03c84a9ed000",
+        "name": "Giraffe Game ARAB 4  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 4  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "cc309eee-38b1-4000-a85e-3f3a6a3b8000": {
+        "id": "cc309eee-38b1-4000-a85e-3f3a6a3b8000",
+        "name": "Giraffe Game ARAB 5  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 5  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "e792f976-db9c-4000-ae31-e96d65a65000": {
+        "id": "e792f976-db9c-4000-ae31-e96d65a65000",
+        "name": "Giraffe Game ARAB 6  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 6  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "d7afc82f-2f50-4000-ae90-52162b7ee000": {
+        "id": "d7afc82f-2f50-4000-ae90-52162b7ee000",
+        "name": "Giraffe Game ARAB 7  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 7  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "7f8eb554-acaf-4000-ae66-35f6b887e000": {
+        "id": "7f8eb554-acaf-4000-ae66-35f6b887e000",
+        "name": "Giraffe Game ARAB 8  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 8  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "2fcca0aa-cd16-4000-a114-70075cab6000": {
+        "id": "2fcca0aa-cd16-4000-a114-70075cab6000",
+        "name": "Giraffe Game ARAB 9  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 9  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "b4326ff3-c13d-4000-a14a-53f50dad5000": {
+        "id": "b4326ff3-c13d-4000-a14a-53f50dad5000",
+        "name": "Giraffe Game ARAB 1 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 1 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "fileSize": 12415738,
+        "lastModifiedDate": "2023-01-16T07:00:32.000Z",
+        "refCount": 1
+      },
+      "4ff813c9-fb1e-4000-a6e8-206511f17000": {
+        "id": "4ff813c9-fb1e-4000-a6e8-206511f17000",
+        "name": "Giraffe Game ENG 1 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 1 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "fileSize": 9010362,
+        "lastModifiedDate": "2023-01-16T06:37:12.000Z",
+        "refCount": 1
+      },
+      "3caf9e60-8cc8-4000-ad2e-b3fbaf62b000": {
+        "id": "3caf9e60-8cc8-4000-ad2e-b3fbaf62b000",
+        "name": "Giraffe Game HEB 1 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 1 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "fileSize": 9374770,
+        "lastModifiedDate": "2023-01-16T06:48:54.000Z",
+        "refCount": 1
+      },
+      "8f76559d-2983-4000-a090-5fb3bcd2a000": {
+        "id": "8f76559d-2983-4000-a090-5fb3bcd2a000",
+        "name": "Giraffe Game HEB 10 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 10 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "a19b62eb-cb33-4000-a4db-786db6144000": {
+        "id": "a19b62eb-cb33-4000-a4db-786db6144000",
+        "name": "Giraffe Game HEB 11 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 11 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "6d712f7b-86f7-4000-a8f2-6cf694958000": {
+        "id": "6d712f7b-86f7-4000-a8f2-6cf694958000",
+        "name": "Giraffe Game HEB 12 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 12 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "3a7ec72b-e5c4-4000-af8d-06bd20273000": {
+        "id": "3a7ec72b-e5c4-4000-af8d-06bd20273000",
+        "name": "Giraffe Game HEB 13 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 13 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "0000a159-ac75-4000-a947-3e4f5f330000": {
+        "id": "0000a159-ac75-4000-a947-3e4f5f330000",
+        "name": "Giraffe Game HEB 2 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 2 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "f7363f08-ae1a-4000-a591-91ec0564c000": {
+        "id": "f7363f08-ae1a-4000-a591-91ec0564c000",
+        "name": "Giraffe Game HEB 3 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 3 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "cdc516bc-01a1-4000-a5e1-a9aac8331000": {
+        "id": "cdc516bc-01a1-4000-a5e1-a9aac8331000",
+        "name": "Giraffe Game HEB 4 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 4 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "4f0d2c96-aa8b-4000-a054-e2464236b000": {
+        "id": "4f0d2c96-aa8b-4000-a054-e2464236b000",
+        "name": "Giraffe Game HEB 5 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 5 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "adacc99f-83b1-4000-ac7e-9b571dcbb000": {
+        "id": "adacc99f-83b1-4000-ac7e-9b571dcbb000",
+        "name": "Giraffe Game HEB 6 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 6 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "067cf2d1-7b72-4000-ac02-8a5a17ec1000": {
+        "id": "067cf2d1-7b72-4000-ac02-8a5a17ec1000",
+        "name": "Giraffe Game HEB 7 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 7 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "969d1ec0-33db-4000-aa23-15609c4d0000": {
+        "id": "969d1ec0-33db-4000-aa23-15609c4d0000",
+        "name": "Giraffe Game HEB 8 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 8 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "aed085f8-3380-4000-aa55-95de6f085000": {
+        "id": "aed085f8-3380-4000-aa55-95de6f085000",
+        "name": "Giraffe Game HEB 9 sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 9 sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "a0888a7c-47fd-4000-a7b0-2870c492b000": {
+        "id": "a0888a7c-47fd-4000-a7b0-2870c492b000",
+        "name": "Giraffe Game ENG 10  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 10  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "ddcc7ea2-c168-4000-af1b-5ec029b3d000": {
+        "id": "ddcc7ea2-c168-4000-af1b-5ec029b3d000",
+        "name": "Giraffe Game ENG 11  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 11  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "8e846d61-29f2-4000-a8b4-7b447e158000": {
+        "id": "8e846d61-29f2-4000-a8b4-7b447e158000",
+        "name": "Giraffe Game ENG 12  sound V1 16-1-23_1.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 12  sound V1 16-1-23_1.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "f6a5c2ef-6c15-4000-a5e7-0b3ea42a8000": {
+        "id": "f6a5c2ef-6c15-4000-a5e7-0b3ea42a8000",
+        "name": "Giraffe Game ENG 13  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 13  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "f61fe6e4-ed7c-4000-a3a9-48dc56918000": {
+        "id": "f61fe6e4-ed7c-4000-a3a9-48dc56918000",
+        "name": "Giraffe Game ENG 2  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 2  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "e366cad6-ed34-4000-a3c7-c925b21c2000": {
+        "id": "e366cad6-ed34-4000-a3c7-c925b21c2000",
+        "name": "Giraffe Game ENG 3  sound V1 16-1-23_1.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 3  sound V1 16-1-23_1.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "1c9be108-11e7-4000-a54e-e2d691045000": {
+        "id": "1c9be108-11e7-4000-a54e-e2d691045000",
+        "name": "Giraffe Game ENG 4  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 4  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "ab797c18-450d-4000-ad0f-14b587234000": {
+        "id": "ab797c18-450d-4000-ad0f-14b587234000",
+        "name": "Giraffe Game ENG 5  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 5  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "0cd93350-bc91-4000-ab4d-42e64c506000": {
+        "id": "0cd93350-bc91-4000-ab4d-42e64c506000",
+        "name": "Giraffe Game ENG 6  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 6  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "3fd55235-38ad-4000-a389-78b8af0aa000": {
+        "id": "3fd55235-38ad-4000-a389-78b8af0aa000",
+        "name": "Giraffe Game ENG 7  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 7  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "800e7269-2c9c-4000-aa5f-348ea5e71000": {
+        "id": "800e7269-2c9c-4000-aa5f-348ea5e71000",
+        "name": "Giraffe Game ENG 8  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 8  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "73095ff6-cfe7-4000-a004-094a5511a000": {
+        "id": "73095ff6-cfe7-4000-a004-094a5511a000",
+        "name": "Giraffe Game ENG 9  sound V1 16-1-23.wav",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 9  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
+        "refCount": 1
+      },
+      "061100fe-57c6-4000-aa01-9591b2218000": {
+        "id": "061100fe-57c6-4000-aa01-9591b2218000",
+        "name": "heartbeat-sound-effect-111218.mp3",
+        "path": "C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "3d24eefa2074c613",
+        "locator": "file://\\C:\\Users\\itayf\\Desktop\\Midbarium BS\\Giraffe-bs\\heartbeat-sound-effect-111218.mp3",
+        "mediaType": "Audio",
+        "fileSize": 361116,
+        "lastModifiedDate": "2023-08-02T13:35:46.000Z",
+        "refCount": 1
+      }
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCABwAMgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAgHBv/EAEAQAAEABAkFDQgCAwAAAAAAAAAIFinwAQIDBAUGB0lWERUXKFgSExghIiM2OEFnpafSVFVhc3aFtcEUMSQyM//EABoBAQADAQEBAAAAAAAAAAAAAAACAwQFBgH/xAAzEQABAgIHAg4DAQAAAAAAAAAAAQIDYRESExRikuJRcwQFITIzQUJDkbHBwtHwMXGB8f/aAAwDAQACEQMRAD8A61HJHJDTgaVeSCSCqb7Xnel840r71lppIcxNJX5MTkRPjD2whjQ61C5ofFRYx6KLFcjnuc9/PcnI6hERKJLtIvfUI5Y0OtQY0OtRYwKrxjiZ9JXbyI5Y0OtQY0OtRYwF4xxM+kW8iOWNDrUGNDrUWMBeMcTPpFvIjljQ61BjQ61FjAXjHEz6RbyI5Y0OtQY0OtRYwF4xxM+kW8iOWNDrUGNDrUWMBeMcTPpFvIjljQ61BjQ61FjAXjHEz6RbyI5Y0OtQY0OtRYwF4xxM+kW8iOWNDrUGNDrUWMBeMcTPpFvIjljQ61BjQ61FjAXjHEz6RbyI5Y0OtQY0OtRYwF4xxM+kW8iOUjUckNOBpWFIJH2pvsmaKXzjSvvWRmkvzE7lfnROXE+MHZCBc0PioHd4rV1WI1zldVeqcq0rQlBoQXND4qLGI5uaHxUWMcLhHb3j/aZ4/UAAZSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjm5ofFQFzQ+Kgen4s77eO9DeguaHxUWMRzc0PiosY4XCO3vH+0zx+oAAylAAAAJHsJmKVVtdlVB2m8KvM2ef5P+Co1Gzjet5nMrI/8ATkbrLvW6/wBYMmXJx5MsNcGCIJ9VWpH3L8lOTTCdUhOciJTSn5RF6nbSSLQiqNDqVW2R5eUb6xodSq2yPLyjfWb2CN5fsTK34FZfqGCaHUqtsjy8o31jQ6lVtkeXlG+s3sC8v2Jlb8Csv1DBNDqVW2R5eUb6xodSq2yPLyjfWb2BeX7Eyt+BWX6hgmh1KrbI8vKN9Y0OpVbZHl5RvrN7AvL9iZW/ArL9QwTQ6lVtkeXlG+saHUqtsjy8o31m9gXl+xMrfgVl+oSjXCdpI2PWgWZTSsSRK20XW2tM2oieTJUZhMOZjQwQxucibuNxwZYOLcwwf3lKuJ1Sr6f2D/X81/RRRKOtZjHUJStP4RE65B3KiKAAZiIAABHNzQ+KgLmh8VA9PxZ328d6G9Bc0PiosYjm5ofFRYxwuEdveP8AaZ4/UAAZSgAAAGCIJ9VWpH3L8lOTezBEE+qrUj7l+SnJe3oHftvk4knNX7tN7ABQRAAAAAAAAAAAAJ1Sr6f2D/X81/RRROqVfT+wf6/mv6KKNEXoof8AfMkvNQAAzkQAACObmh8VAXND4qB6fizvt470N6C5ofFRYxHNzQ+KixjhcI7e8f7TPH6gADKUAAAAwRBPqq1I+5fkpyb2YIgn1VakfcvyU5L29A79t8nEk5q/dpvYAKCIAAAAAAAAAAABOqVfT+wf6/mv6KKJ1Sr6f2D/AF/Nf0UUaIvRQ/75kl5qAAGciAAARzc0PioC5ofFQPT8Wd9vHehvQXND4qLGI5uaHxUWMcLhHb3j/aZ4/UAAZSgAAAErWT2ZJpWOWf0VZxVid2KTqjKI3/eJWfylLR5eNvsvKS0bdRokSJFh5UpGggyRYOKCD+4eMqkFsOKsNFbQiou2X+n1FoME18O4Txka+HcJ4yb2CVvhTwPtaRgmvh3CeMjXw7hPGTewLfCngK0jBNfDuE8ZGvh3CeMm9gW+FPAVpGCa+HcJ4yNfDuE8ZN7At8KeArSME18O4Txka+HcJ4yb2Bb4U8BWkTHTdlCVdo9eKg03aZPbKJCiqm1hm9NRotBSlJRZxKQRI0G6iwQS0SNFhh3MEOSDLF4+0pwAhEirEoRUoo2HxVpAAKz4AAARzc0PioC5ofFQPT8Wd9vHehvQXND4qLGI5RySNQ04GlXkfUgq5e153ojN1K+9ZadyHPzSS+TH5Ef4Q9sAY0OtRx4sJyue1zH89y8jaUVFommwreyuWMCOWNDrUGNDrUVXfBEyaiuwmWMCOWNDrUGNDrULvgiZNQsJljAjljQ61BjQ61C74ImTULCZYwI5Y0OtQY0OtQu+CJk1CwmWMCOWNDrUGNDrULvgiZNQsJljAjljQ61BjQ61C74ImTULCZYwI5Y0OtQY0OtQu+CJk1CwmWMCOWNDrUGNDrULvgiZNQsJljAjljQ61BjQ61C74ImTULCZYwI5Y0OtQY0OtQu+CJk1CwmWMCOWNDrUGNDrULvgiZNQsJi5ofFQCRqRqGnA0rCj6j7XL2TNFEZupX3rIzuX5+dyXzo/Lj/CDsgB3eK0dViOc1W1nqvKlC0LQaEP/9k=",
+      "size": {
+        "width": 200,
+        "height": 112
+      },
+      "hash": "c642cb3a2ee19b5fe811bfdcec5b96bd8a043532"
+    }
+  },
+  "selection": {
+    "hovered": null,
+    "selectionContainer": {
+      "id": "7de001b7-4921-4000-a2dd-4e5248da1000",
+      "type": "ZONE",
+      "selectableType": "ZONE"
+    },
+    "selectionEntities": {
+      "1e6f08b4-b381-4000-a564-697e98ac2000": {
+        "id": "1e6f08b4-b381-4000-a564-697e98ac2000",
+        "type": "Audio",
+        "selectableType": "STATE",
+        "selectableData": null
+      }
+    },
+    "prevSelectionEntities": {
+      "1e6f08b4-b381-4000-a564-697e98ac2000": {
+        "id": "1e6f08b4-b381-4000-a564-697e98ac2000",
+        "type": "Audio",
+        "selectableType": "STATE",
+        "selectableData": null
+      }
+    },
+    "isEventAdvancedEnabled": false,
+    "activeAssetMenuTab": "ASSETS"
+  },
+  "interactiveCanvas": {
+    "statePositionById": {
+      "71bbf419-9803-4000-a7ea-a68e8a8a6000": {
+        "id": "71bbf419-9803-4000-a7ea-a68e8a8a6000",
+        "position": {
+          "x": 1014.5454711914062,
+          "y": 173.3333282470703
+        }
+      },
+      "9b3d7fea-b44e-4000-a400-16ec82e85000": {
+        "id": "9b3d7fea-b44e-4000-a400-16ec82e85000",
+        "position": {
+          "x": 754.447998046875,
+          "y": 476.2260284423828
+        }
+      },
+      "25c45175-f2ef-4000-aab8-8216f9aac000": {
+        "id": "25c45175-f2ef-4000-aab8-8216f9aac000",
+        "position": {
+          "x": 1021.3107299804688,
+          "y": 469.39442443847656
+        }
+      },
+      "f85713ee-578e-4000-a2fb-a4c028b8e000": {
+        "id": "f85713ee-578e-4000-a2fb-a4c028b8e000",
+        "position": {
+          "x": 1330.2334594726562,
+          "y": 487.421875
+        }
+      },
+      "64351ce6-c51c-4000-a2c8-c05afbd35000": {
+        "id": "64351ce6-c51c-4000-a2c8-c05afbd35000",
+        "position": {
+          "x": 1031.240966796875,
+          "y": 832.9406127929688
+        }
+      },
+      "de579df9-2847-4000-adf8-995b6a3bc000": {
+        "id": "de579df9-2847-4000-adf8-995b6a3bc000",
+        "position": {
+          "x": 791.996826171875,
+          "y": 1051.9156494140625
+        }
+      },
+      "9838553d-1d50-4000-a34f-2e5cde871000": {
+        "id": "9838553d-1d50-4000-a34f-2e5cde871000",
+        "position": {
+          "x": 845.6132202148438,
+          "y": 1457.9075927734375
+        }
+      },
+      "8c460f0e-62e3-4000-adb9-e025619da000": {
+        "id": "8c460f0e-62e3-4000-adb9-e025619da000",
+        "position": {
+          "x": 1478.13720703125,
+          "y": 1300.8935546875
+        }
+      },
+      "a4534a5f-60e4-4000-a3f6-1ce62ba4a000": {
+        "id": "a4534a5f-60e4-4000-a3f6-1ce62ba4a000",
+        "position": {
+          "x": 1127.458251953125,
+          "y": -318.27894592285156
+        }
+      },
+      "c525f380-77a9-4000-a5de-f54a36121000": {
+        "id": "c525f380-77a9-4000-a5de-f54a36121000",
+        "position": {
+          "x": 764.0559692382812,
+          "y": -19.355528116226196
+        }
+      },
+      "e6dcfc8d-e152-4000-a95f-a5c911183000": {
+        "id": "e6dcfc8d-e152-4000-a95f-a5c911183000",
+        "position": {
+          "x": 1125.963134765625,
+          "y": -15.852745056152344
+        }
+      },
+      "8498d7dd-4d2f-4000-ab6f-371dd1d50000": {
+        "id": "8498d7dd-4d2f-4000-ab6f-371dd1d50000",
+        "position": {
+          "x": 1576.56982421875,
+          "y": -32.0180778503418
+        }
+      },
+      "4fe0f919-212a-4000-a75d-325d2fc9d000": {
+        "id": "4fe0f919-212a-4000-a75d-325d2fc9d000",
+        "position": {
+          "x": 752.7925415039062,
+          "y": 275.20281982421875
+        }
+      },
+      "2386da56-762a-4000-a43b-2b01c1e2d000": {
+        "id": "2386da56-762a-4000-a43b-2b01c1e2d000",
+        "position": {
+          "x": 1074.0560302734375,
+          "y": 350.7624206542969
+        }
+      },
+      "38fcbffe-825a-4000-aae7-95ec40def000": {
+        "id": "38fcbffe-825a-4000-aae7-95ec40def000",
+        "position": {
+          "x": 1595.1715087890625,
+          "y": 280.772216796875
+        }
+      },
+      "bb3bc172-8302-4000-a047-cc534e873000": {
+        "id": "bb3bc172-8302-4000-a047-cc534e873000",
+        "position": {
+          "x": 521.0717163085938,
+          "y": 158.79336547851562
+        }
+      },
+      "0b519708-3b55-4000-a1ec-bf93d13ef000": {
+        "id": "0b519708-3b55-4000-a1ec-bf93d13ef000",
+        "position": {
+          "x": 1293.4506225585938,
+          "y": 184.23997497558594
+        }
+      },
+      "2ac04928-c5ee-4000-afe4-1a6a5a2f5000": {
+        "id": "2ac04928-c5ee-4000-afe4-1a6a5a2f5000",
+        "position": {
+          "x": 1838.4154052734375,
+          "y": 112.85482788085938
+        }
+      },
+      "1e6f08b4-b381-4000-a564-697e98ac2000": {
+        "id": "1e6f08b4-b381-4000-a564-697e98ac2000",
+        "position": {
+          "x": 918.7760620117188,
+          "y": 80.8079833984375
+        }
+      },
+      "862c21bd-c8b3-4000-a685-c0fa04537000": {
+        "id": "862c21bd-c8b3-4000-a685-c0fa04537000",
+        "position": {
+          "x": 667.3621215820312,
+          "y": -117.27854537963867
+        }
+      }
+    },
+    "eventDataById": {
+      "99998683-f65d-4000-aa5a-bfc45df31000": {
+        "id": "99998683-f65d-4000-aa5a-bfc45df31000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "7f992fc0-ee90-4000-a42c-590a33780000": {
+        "id": "7f992fc0-ee90-4000-a42c-590a33780000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "0f62191d-3b6d-4000-aa91-96f094dd4000": {
+        "id": "0f62191d-3b6d-4000-aa91-96f094dd4000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "0c1ab295-ce9a-4000-ad1f-be479bb7c000": {
+        "id": "0c1ab295-ce9a-4000-ad1f-be479bb7c000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "eca38e2b-8d11-4000-acbf-6d7383b46000": {
+        "id": "eca38e2b-8d11-4000-acbf-6d7383b46000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "72158ca4-965e-4000-ac17-ebe9c1fbe000": {
+        "id": "72158ca4-965e-4000-ac17-ebe9c1fbe000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "9d615e1a-17aa-4000-ac68-d4a5e68cc000": {
+        "id": "9d615e1a-17aa-4000-ac68-d4a5e68cc000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "c8ceaeb7-ff88-4000-ac6b-f036ec2d4000": {
+        "id": "c8ceaeb7-ff88-4000-ac6b-f036ec2d4000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "c5247cfc-3ed2-4000-aae0-b742e9e0d000": {
+        "id": "c5247cfc-3ed2-4000-aae0-b742e9e0d000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "eab86b08-6afb-4000-a3d9-f1b7c523e000": {
+        "id": "eab86b08-6afb-4000-a3d9-f1b7c523e000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "3df7c236-0a91-4000-a411-d64b2d4e7000": {
+        "id": "3df7c236-0a91-4000-a411-d64b2d4e7000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "0266cacc-5add-4000-a2e2-fb0e51cc8000": {
+        "id": "0266cacc-5add-4000-a2e2-fb0e51cc8000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "b9af83fd-4556-4000-adc7-3c419caeb000": {
+        "id": "b9af83fd-4556-4000-adc7-3c419caeb000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "f2898033-94af-4000-af5d-4c05328a0000": {
+        "id": "f2898033-94af-4000-af5d-4c05328a0000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "cc4082b8-d6c8-4000-a8a7-77c5c74f6000": {
+        "id": "cc4082b8-d6c8-4000-a8a7-77c5c74f6000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "5dd1b145-7988-4000-a846-17c29d71b000": {
+        "id": "5dd1b145-7988-4000-a846-17c29d71b000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "e96377fb-cf70-4000-ae76-35020c026000": {
+        "id": "e96377fb-cf70-4000-ae76-35020c026000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "3bd53525-5a00-4000-a9f5-7b1bb65b5000": {
+        "id": "3bd53525-5a00-4000-a9f5-7b1bb65b5000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "a4e76379-d040-4000-af1e-bd968a749000": {
+        "id": "a4e76379-d040-4000-af1e-bd968a749000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "c63cc808-a2db-4000-ad77-51b106333000": {
+        "id": "c63cc808-a2db-4000-ad77-51b106333000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "e87200f5-52b2-4000-ac9b-cba63b61e000": {
+        "id": "e87200f5-52b2-4000-ac9b-cba63b61e000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "636e96e2-eb6b-4000-a649-1b3f8079d000": {
+        "id": "636e96e2-eb6b-4000-a649-1b3f8079d000",
+        "displayType": "Automatic",
+        "labelLocation": "Bottom"
+      },
+      "28ef3452-3c8d-4000-af9c-8a0570a2c000": {
+        "id": "28ef3452-3c8d-4000-af9c-8a0570a2c000",
+        "displayType": "Automatic",
+        "labelLocation": "Bottom"
+      },
+      "3ededcf8-4e91-4000-af82-d4d2c9a25000": {
+        "id": "3ededcf8-4e91-4000-af82-d4d2c9a25000",
+        "displayType": "Automatic",
+        "labelLocation": "Bottom"
+      },
+      "b778175d-72d0-4000-ab17-5525090fd000": {
+        "id": "b778175d-72d0-4000-ab17-5525090fd000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "6e05c519-8ca5-4000-a758-7ec1b78be000": {
+        "id": "6e05c519-8ca5-4000-a758-7ec1b78be000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "575432a6-0a34-4000-a4b0-9ac3482eb000": {
+        "id": "575432a6-0a34-4000-a4b0-9ac3482eb000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "f5b4aa10-7ed7-4000-ab79-ea5b90689000": {
+        "id": "f5b4aa10-7ed7-4000-ab79-ea5b90689000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "1bbb08e2-0c2a-4000-a47d-363c5578c000": {
+        "id": "1bbb08e2-0c2a-4000-a47d-363c5578c000",
+        "displayType": "Automatic",
+        "labelLocation": "Bottom"
+      },
+      "d3cd9fcd-d3ac-4000-a959-302ae1a75000": {
+        "id": "d3cd9fcd-d3ac-4000-a959-302ae1a75000",
+        "displayType": "Automatic",
+        "labelLocation": "Bottom"
+      },
+      "7f5e8786-2dfd-4000-aaf9-91c3fcba5000": {
+        "id": "7f5e8786-2dfd-4000-aaf9-91c3fcba5000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "0d332ae7-f4e6-4000-abb8-d721cb538000": {
+        "id": "0d332ae7-f4e6-4000-abb8-d721cb538000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "01a3e622-daa3-4000-ac8f-f76f8e9c8000": {
+        "id": "01a3e622-daa3-4000-ac8f-f76f8e9c8000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "3e4437fa-4c97-4000-ae55-c4485a4f3000": {
+        "id": "3e4437fa-4c97-4000-ae55-c4485a4f3000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "324a0a1f-64ee-4000-a5d5-2c8d58354000": {
+        "id": "324a0a1f-64ee-4000-a5d5-2c8d58354000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "57d0ab25-4373-4000-a11f-f58186c5d000": {
+        "id": "57d0ab25-4373-4000-a11f-f58186c5d000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "2ed2638d-9d93-4000-a576-1e93daeb1000": {
+        "id": "2ed2638d-9d93-4000-a576-1e93daeb1000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "04cc1102-c8ef-4000-ae38-82c426ad6000": {
+        "id": "04cc1102-c8ef-4000-ae38-82c426ad6000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      }
+    },
+    "viewTransformByZoneId": {
+      "a0aa97b2-8769-4000-ad73-1c174c091000": {
+        "x": 0,
+        "y": 0,
+        "k": 1
+      },
+      "1f10a5f4-15c4-4000-a3ea-172ac3b18000": {
+        "x": -221,
+        "y": -164.00000762939453,
+        "k": 1
+      },
+      "7de001b7-4921-4000-a2dd-4e5248da1000": {
+        "x": 0,
+        "y": 0,
+        "k": 1
+      }
+    },
+    "isLoaderEnabled": false
+  },
+  "eventMenu": {
+    "isOpen": true,
+    "showTitles": true
+  },
+  "liveText": {},
+  "screenLayoutSettings": {
+    "selectedLayoutId": null,
+    "screenCount": null,
+    "isLayoutBoundaryToggled": false,
+    "selectedBezel": null,
+    "isSnapToCanvasToggled": false
+  }
+}
