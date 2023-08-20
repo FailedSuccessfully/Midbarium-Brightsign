@@ -492,7 +492,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2023-08-20T11:00:35.982Z"
+      "lastModifiedTime": "2023-08-20T11:33:12.811Z"
     },
     "zones": {
       "zonesById": {
@@ -7322,6 +7322,438 @@
             }
           ],
           "sequenceId": "0d9770f0-7c8d-4000-a5e4-c17bad1eb000"
+        },
+        "424abe1a-38ac-4000-a1bf-7f627f3e2000": {
+          "id": "424abe1a-38ac-4000-a1bf-7f627f3e2000",
+          "name": "Set audio",
+          "operations": [
+            {
+              "type": "setAllAudioOutputs",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "audioOutputAssignments": {
+                  "analog1": "Pcm",
+                  "analog2": "None",
+                  "analog3": "None",
+                  "usbA": "None",
+                  "usbB": "None",
+                  "usbC": "None",
+                  "usbD": "None",
+                  "usbTypeA": "None",
+                  "usbTypeC": "None",
+                  "usb700_1": "None",
+                  "usb700_2": "None",
+                  "usb700_3": "None",
+                  "usb700_4": "None",
+                  "usb700_5": "None",
+                  "usb700_6": "None",
+                  "usb700_7": "None",
+                  "usb_1": "None",
+                  "usb_2": "None",
+                  "usb_3": "None",
+                  "usb_4": "None",
+                  "usb_5": "None",
+                  "usb_6": "None",
+                  "spdif": "Pcm",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None"
+                }
+              }
+            },
+            {
+              "type": "setAudioMode",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "mode": "Right"
+              }
+            },
+            {
+              "type": "configureAudioResources",
+              "data": null
+            }
+          ],
+          "sequenceId": "ef3bd899-9c90-4000-a0d8-ac3cb8197000"
+        },
+        "c85e8e6f-7b0a-4000-a1e8-9ed2dda1e000": {
+          "id": "c85e8e6f-7b0a-4000-a1e8-9ed2dda1e000",
+          "name": "Set audio",
+          "operations": [
+            {
+              "type": "setAllAudioOutputs",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "audioOutputAssignments": {
+                  "analog1": "Pcm",
+                  "analog2": "None",
+                  "analog3": "None",
+                  "usbA": "None",
+                  "usbB": "None",
+                  "usbC": "None",
+                  "usbD": "None",
+                  "usbTypeA": "None",
+                  "usbTypeC": "None",
+                  "usb700_1": "None",
+                  "usb700_2": "None",
+                  "usb700_3": "None",
+                  "usb700_4": "None",
+                  "usb700_5": "None",
+                  "usb700_6": "None",
+                  "usb700_7": "None",
+                  "usb_1": "None",
+                  "usb_2": "None",
+                  "usb_3": "None",
+                  "usb_4": "None",
+                  "usb_5": "None",
+                  "usb_6": "None",
+                  "spdif": "Pcm",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None"
+                }
+              }
+            },
+            {
+              "type": "setAudioMode",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "mode": "Left"
+              }
+            },
+            {
+              "type": "configureAudioResources",
+              "data": null
+            }
+          ],
+          "sequenceId": "0f4ab8ed-f929-4000-a444-7155cc107000"
+        },
+        "3bca21bb-1aac-4000-a168-11afaa8d2000": {
+          "id": "3bca21bb-1aac-4000-a168-11afaa8d2000",
+          "name": "Set audio",
+          "operations": [
+            {
+              "type": "setAllAudioOutputs",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "audioOutputAssignments": {
+                  "analog1": "Pcm",
+                  "analog2": "None",
+                  "analog3": "None",
+                  "usbA": "None",
+                  "usbB": "None",
+                  "usbC": "None",
+                  "usbD": "None",
+                  "usbTypeA": "None",
+                  "usbTypeC": "None",
+                  "usb700_1": "None",
+                  "usb700_2": "None",
+                  "usb700_3": "None",
+                  "usb700_4": "None",
+                  "usb700_5": "None",
+                  "usb700_6": "None",
+                  "usb700_7": "None",
+                  "usb_1": "None",
+                  "usb_2": "None",
+                  "usb_3": "None",
+                  "usb_4": "None",
+                  "usb_5": "None",
+                  "usb_6": "None",
+                  "spdif": "Pcm",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None"
+                }
+              }
+            },
+            {
+              "type": "setAudioMode",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "mode": "Right"
+              }
+            },
+            {
+              "type": "configureAudioResources",
+              "data": null
+            }
+          ],
+          "sequenceId": "5abe2fe0-3895-4000-a577-bedd43cad000"
+        },
+        "8715caf1-b848-4000-a5ef-120f1aee6000": {
+          "id": "8715caf1-b848-4000-a5ef-120f1aee6000",
+          "name": "Set audio",
+          "operations": [
+            {
+              "type": "setAllAudioOutputs",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "audioOutputAssignments": {
+                  "analog1": "Pcm",
+                  "analog2": "None",
+                  "analog3": "None",
+                  "usbA": "None",
+                  "usbB": "None",
+                  "usbC": "None",
+                  "usbD": "None",
+                  "usbTypeA": "None",
+                  "usbTypeC": "None",
+                  "usb700_1": "None",
+                  "usb700_2": "None",
+                  "usb700_3": "None",
+                  "usb700_4": "None",
+                  "usb700_5": "None",
+                  "usb700_6": "None",
+                  "usb700_7": "None",
+                  "usb_1": "None",
+                  "usb_2": "None",
+                  "usb_3": "None",
+                  "usb_4": "None",
+                  "usb_5": "None",
+                  "usb_6": "None",
+                  "spdif": "Pcm",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None"
+                }
+              }
+            },
+            {
+              "type": "setAudioMode",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "mode": "Right"
+              }
+            },
+            {
+              "type": "configureAudioResources",
+              "data": null
+            }
+          ],
+          "sequenceId": "8dce9a5e-6827-4000-a2aa-b37516de2000"
+        },
+        "3ba3eb49-8f1b-4000-adde-7ea9ae643000": {
+          "id": "3ba3eb49-8f1b-4000-adde-7ea9ae643000",
+          "name": "Set audio",
+          "operations": [
+            {
+              "type": "setAllAudioOutputs",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "audioOutputAssignments": {
+                  "analog1": "Pcm",
+                  "analog2": "None",
+                  "analog3": "None",
+                  "usbA": "None",
+                  "usbB": "None",
+                  "usbC": "None",
+                  "usbD": "None",
+                  "usbTypeA": "None",
+                  "usbTypeC": "None",
+                  "usb700_1": "None",
+                  "usb700_2": "None",
+                  "usb700_3": "None",
+                  "usb700_4": "None",
+                  "usb700_5": "None",
+                  "usb700_6": "None",
+                  "usb700_7": "None",
+                  "usb_1": "None",
+                  "usb_2": "None",
+                  "usb_3": "None",
+                  "usb_4": "None",
+                  "usb_5": "None",
+                  "usb_6": "None",
+                  "spdif": "Pcm",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None"
+                }
+              }
+            },
+            {
+              "type": "setAudioMode",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "mode": "Left"
+              }
+            },
+            {
+              "type": "configureAudioResources",
+              "data": null
+            }
+          ],
+          "sequenceId": "181936bc-c900-4000-acf1-12726cd10000"
+        },
+        "f9a1e77a-93c3-4000-afd3-b59506241000": {
+          "id": "f9a1e77a-93c3-4000-afd3-b59506241000",
+          "name": "Set audio",
+          "operations": [
+            {
+              "type": "setAllAudioOutputs",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "audioOutputAssignments": {
+                  "analog1": "Pcm",
+                  "analog2": "None",
+                  "analog3": "None",
+                  "usbA": "None",
+                  "usbB": "None",
+                  "usbC": "None",
+                  "usbD": "None",
+                  "usbTypeA": "None",
+                  "usbTypeC": "None",
+                  "usb700_1": "None",
+                  "usb700_2": "None",
+                  "usb700_3": "None",
+                  "usb700_4": "None",
+                  "usb700_5": "None",
+                  "usb700_6": "None",
+                  "usb700_7": "None",
+                  "usb_1": "None",
+                  "usb_2": "None",
+                  "usb_3": "None",
+                  "usb_4": "None",
+                  "usb_5": "None",
+                  "usb_6": "None",
+                  "spdif": "Pcm",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None"
+                }
+              }
+            },
+            {
+              "type": "setAudioMode",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "mode": "Right"
+              }
+            },
+            {
+              "type": "configureAudioResources",
+              "data": null
+            }
+          ],
+          "sequenceId": "6a4ceff8-7dec-4000-a1c6-4f68b22fa000"
+        },
+        "58037b07-136c-4000-a310-2895aad01000": {
+          "id": "58037b07-136c-4000-a310-2895aad01000",
+          "name": "Set audio",
+          "operations": [
+            {
+              "type": "setAllAudioOutputs",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "audioOutputAssignments": {
+                  "analog1": "Pcm",
+                  "analog2": "None",
+                  "analog3": "None",
+                  "usbA": "None",
+                  "usbB": "None",
+                  "usbC": "None",
+                  "usbD": "None",
+                  "usbTypeA": "None",
+                  "usbTypeC": "None",
+                  "usb700_1": "None",
+                  "usb700_2": "None",
+                  "usb700_3": "None",
+                  "usb700_4": "None",
+                  "usb700_5": "None",
+                  "usb700_6": "None",
+                  "usb700_7": "None",
+                  "usb_1": "None",
+                  "usb_2": "None",
+                  "usb_3": "None",
+                  "usb_4": "None",
+                  "usb_5": "None",
+                  "usb_6": "None",
+                  "spdif": "Pcm",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None"
+                }
+              }
+            },
+            {
+              "type": "setAudioMode",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "mode": "Right"
+              }
+            },
+            {
+              "type": "configureAudioResources",
+              "data": null
+            }
+          ],
+          "sequenceId": "2ed979ab-94af-4000-a4e2-33325649c000"
+        },
+        "5e1642c8-5a2a-4000-acf8-088c18b83000": {
+          "id": "5e1642c8-5a2a-4000-acf8-088c18b83000",
+          "name": "Set audio",
+          "operations": [
+            {
+              "type": "setAllAudioOutputs",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "audioOutputAssignments": {
+                  "analog1": "Pcm",
+                  "analog2": "None",
+                  "analog3": "None",
+                  "usbA": "None",
+                  "usbB": "None",
+                  "usbC": "None",
+                  "usbD": "None",
+                  "usbTypeA": "None",
+                  "usbTypeC": "None",
+                  "usb700_1": "None",
+                  "usb700_2": "None",
+                  "usb700_3": "None",
+                  "usb700_4": "None",
+                  "usb700_5": "None",
+                  "usb700_6": "None",
+                  "usb700_7": "None",
+                  "usb_1": "None",
+                  "usb_2": "None",
+                  "usb_3": "None",
+                  "usb_4": "None",
+                  "usb_5": "None",
+                  "usb_6": "None",
+                  "spdif": "Pcm",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None"
+                }
+              }
+            },
+            {
+              "type": "setAudioMode",
+              "data": {
+                "zoneId": "818da330-3d98-4000-a244-50161b330000",
+                "mode": "Left"
+              }
+            },
+            {
+              "type": "configureAudioResources",
+              "data": null
+            }
+          ],
+          "sequenceId": "e2f02760-3c88-4000-a33e-f05a6d511000"
         }
       },
       "sequencesById": {
@@ -7557,6 +7989,70 @@
           "parentId": "94d6451a-1105-4000-a2aa-77534b957000",
           "sequence": [
             "0f267cb5-c6ff-4000-a3b6-3b2736b1d000"
+          ]
+        },
+        "ef3bd899-9c90-4000-a0d8-ac3cb8197000": {
+          "id": "ef3bd899-9c90-4000-a0d8-ac3cb8197000",
+          "type": "Event",
+          "parentId": "151b16bc-75cc-4000-a08d-90b527d7b000",
+          "sequence": [
+            "424abe1a-38ac-4000-a1bf-7f627f3e2000"
+          ]
+        },
+        "0f4ab8ed-f929-4000-a444-7155cc107000": {
+          "id": "0f4ab8ed-f929-4000-a444-7155cc107000",
+          "type": "Event",
+          "parentId": "f1f6fc7e-c11a-4000-aed2-185d7a836000",
+          "sequence": [
+            "c85e8e6f-7b0a-4000-a1e8-9ed2dda1e000"
+          ]
+        },
+        "5abe2fe0-3895-4000-a577-bedd43cad000": {
+          "id": "5abe2fe0-3895-4000-a577-bedd43cad000",
+          "type": "Event",
+          "parentId": "0e7ed7f5-53aa-4000-a1f6-c5715a74b000",
+          "sequence": [
+            "3bca21bb-1aac-4000-a168-11afaa8d2000"
+          ]
+        },
+        "8dce9a5e-6827-4000-a2aa-b37516de2000": {
+          "id": "8dce9a5e-6827-4000-a2aa-b37516de2000",
+          "type": "Event",
+          "parentId": "dca48324-0b02-4000-ac19-c6f11cc6a000",
+          "sequence": [
+            "8715caf1-b848-4000-a5ef-120f1aee6000"
+          ]
+        },
+        "181936bc-c900-4000-acf1-12726cd10000": {
+          "id": "181936bc-c900-4000-acf1-12726cd10000",
+          "type": "Event",
+          "parentId": "5afc26c6-b06a-4000-aa95-71e2cf95c000",
+          "sequence": [
+            "3ba3eb49-8f1b-4000-adde-7ea9ae643000"
+          ]
+        },
+        "6a4ceff8-7dec-4000-a1c6-4f68b22fa000": {
+          "id": "6a4ceff8-7dec-4000-a1c6-4f68b22fa000",
+          "type": "Event",
+          "parentId": "6ca9f13a-0d85-4000-a4d1-ba5d01827000",
+          "sequence": [
+            "f9a1e77a-93c3-4000-afd3-b59506241000"
+          ]
+        },
+        "2ed979ab-94af-4000-a4e2-33325649c000": {
+          "id": "2ed979ab-94af-4000-a4e2-33325649c000",
+          "type": "Event",
+          "parentId": "30635bc1-0a27-4000-ae7c-52f576c6a000",
+          "sequence": [
+            "58037b07-136c-4000-a310-2895aad01000"
+          ]
+        },
+        "e2f02760-3c88-4000-a33e-f05a6d511000": {
+          "id": "e2f02760-3c88-4000-a33e-f05a6d511000",
+          "type": "Event",
+          "parentId": "a294c4d5-7f95-4000-a3c3-8293b1359000",
+          "sequence": [
+            "5e1642c8-5a2a-4000-acf8-088c18b83000"
           ]
         }
       }
@@ -7902,14 +8398,14 @@
   "selection": {
     "hovered": null,
     "selectionContainer": {
-      "id": "ab285ba0-065c-4000-addf-762645836000",
+      "id": "818da330-3d98-4000-a244-50161b330000",
       "type": "ZONE",
       "selectableType": "ZONE"
     },
     "selectionEntities": {},
     "prevSelectionEntities": {
-      "c55ddf28-3f04-4000-ab6e-eb90b6a1b000": {
-        "id": "c55ddf28-3f04-4000-ab6e-eb90b6a1b000",
+      "30635bc1-0a27-4000-ae7c-52f576c6a000": {
+        "id": "30635bc1-0a27-4000-ae7c-52f576c6a000",
         "type": "Event",
         "selectableType": "TRANSITION",
         "selectableData": null
@@ -10763,9 +11259,9 @@
         "k": 0.5743491774985174
       },
       "ab285ba0-065c-4000-addf-762645836000": {
-        "x": 36.150710431978496,
-        "y": 130.00674155874407,
-        "k": 0.37892914162759944
+        "x": 0,
+        "y": 0,
+        "k": 1
       },
       "806bd8a8-4f6d-4000-a705-5dcb0a0db000": {
         "x": 152.8179675965821,
@@ -10818,9 +11314,9 @@
         "k": 0.34805034710487937
       },
       "818da330-3d98-4000-a244-50161b330000": {
-        "x": 733.5828030158387,
-        "y": 152.21901134813405,
-        "k": 0.4790308911290163
+        "x": 733.2857718095879,
+        "y": 96.676957739655,
+        "k": 0.6320850503493263
       }
     },
     "isLoaderEnabled": false
