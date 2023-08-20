@@ -492,7 +492,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2023-08-20T11:33:12.811Z"
+      "lastModifiedTime": "2023-08-20T12:31:43.666Z"
     },
     "zones": {
       "zonesById": {
@@ -796,7 +796,7 @@
         "b361badc-cd42-4000-aa07-930060c40000": 10,
         "fefeb30f-314c-4000-a5d5-fb6259825000": 11,
         "ab285ba0-065c-4000-addf-762645836000": 12,
-        "02251c09-22c7-4000-af37-bd30e24f0000": 33
+        "02251c09-22c7-4000-af37-bd30e24f0000": 34
       }
     },
     "screens": {
@@ -2444,6 +2444,20 @@
             "defaultTransition": "No effect",
             "transitionDuration": 1
           }
+        },
+        "d4837021-945b-4000-a529-769cfbd10000": {
+          "id": "d4837021-945b-4000-a529-769cfbd10000",
+          "name": "Wait",
+          "tag": "33",
+          "container": {
+            "id": "02251c09-22c7-4000-af37-bd30e24f0000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Wait",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
         }
       },
       "sequencesByParentId": {}
@@ -2751,7 +2765,7 @@
         "mediaStateId": "d8bcc1ee-29ae-4000-a4ef-f71c3f54e000",
         "disabled": false,
         "data": {
-          "interval": 10
+          "interval": 15
         },
         "action": "None"
       },
@@ -4195,6 +4209,17 @@
           "userVariableToAssignWildcard": "0"
         },
         "action": "None"
+      },
+      "c52133a9-167b-4000-a207-36241ee64000": {
+        "id": "c52133a9-167b-4000-a207-36241ee64000",
+        "name": "Wait_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "d4837021-945b-4000-a529-769cfbd10000",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        },
+        "action": "None"
       }
     },
     "transitions": {
@@ -4259,7 +4284,7 @@
           "id": "f2759108-8454-4000-aec3-467f684ff000",
           "name": "Step 8_ev_tr",
           "eventId": "7535085e-5d6c-4000-a302-880fe0bf1000",
-          "targetMediaStateId": "d8bcc1ee-29ae-4000-a4ef-f71c3f54e000",
+          "targetMediaStateId": "d4837021-945b-4000-a529-769cfbd10000",
           "type": "No effect",
           "duration": 0
         },
@@ -6550,6 +6575,14 @@
           "targetMediaStateId": "94d6451a-1105-4000-a2aa-77534b957000",
           "type": "No effect",
           "duration": 0
+        },
+        "85a580a5-07dd-4000-a939-8cbd36e39000": {
+          "id": "85a580a5-07dd-4000-a939-8cbd36e39000",
+          "name": "Wait_ev_tr",
+          "eventId": "c52133a9-167b-4000-a207-36241ee64000",
+          "targetMediaStateId": "d8bcc1ee-29ae-4000-a4ef-f71c3f54e000",
+          "type": "No effect",
+          "duration": 0
         }
       },
       "sequencesByEventId": {
@@ -7339,6 +7372,12 @@
                   "usbB": "None",
                   "usbC": "None",
                   "usbD": "None",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None",
+                  "spdif": "Pcm",
                   "usbTypeA": "None",
                   "usbTypeC": "None",
                   "usb700_1": "None",
@@ -7353,13 +7392,7 @@
                   "usb_3": "None",
                   "usb_4": "None",
                   "usb_5": "None",
-                  "usb_6": "None",
-                  "spdif": "Pcm",
-                  "hdmi": "None",
-                  "hdmi1": "Pcm",
-                  "hdmi2": "None",
-                  "hdmi3": "None",
-                  "hdmi4": "None"
+                  "usb_6": "None"
                 }
               }
             },
@@ -7393,6 +7426,12 @@
                   "usbB": "None",
                   "usbC": "None",
                   "usbD": "None",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None",
+                  "spdif": "Pcm",
                   "usbTypeA": "None",
                   "usbTypeC": "None",
                   "usb700_1": "None",
@@ -7407,13 +7446,7 @@
                   "usb_3": "None",
                   "usb_4": "None",
                   "usb_5": "None",
-                  "usb_6": "None",
-                  "spdif": "Pcm",
-                  "hdmi": "None",
-                  "hdmi1": "Pcm",
-                  "hdmi2": "None",
-                  "hdmi3": "None",
-                  "hdmi4": "None"
+                  "usb_6": "None"
                 }
               }
             },
@@ -7447,6 +7480,12 @@
                   "usbB": "None",
                   "usbC": "None",
                   "usbD": "None",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None",
+                  "spdif": "Pcm",
                   "usbTypeA": "None",
                   "usbTypeC": "None",
                   "usb700_1": "None",
@@ -7461,13 +7500,7 @@
                   "usb_3": "None",
                   "usb_4": "None",
                   "usb_5": "None",
-                  "usb_6": "None",
-                  "spdif": "Pcm",
-                  "hdmi": "None",
-                  "hdmi1": "Pcm",
-                  "hdmi2": "None",
-                  "hdmi3": "None",
-                  "hdmi4": "None"
+                  "usb_6": "None"
                 }
               }
             },
@@ -7501,6 +7534,12 @@
                   "usbB": "None",
                   "usbC": "None",
                   "usbD": "None",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None",
+                  "spdif": "Pcm",
                   "usbTypeA": "None",
                   "usbTypeC": "None",
                   "usb700_1": "None",
@@ -7515,13 +7554,7 @@
                   "usb_3": "None",
                   "usb_4": "None",
                   "usb_5": "None",
-                  "usb_6": "None",
-                  "spdif": "Pcm",
-                  "hdmi": "None",
-                  "hdmi1": "Pcm",
-                  "hdmi2": "None",
-                  "hdmi3": "None",
-                  "hdmi4": "None"
+                  "usb_6": "None"
                 }
               }
             },
@@ -7555,6 +7588,12 @@
                   "usbB": "None",
                   "usbC": "None",
                   "usbD": "None",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None",
+                  "spdif": "Pcm",
                   "usbTypeA": "None",
                   "usbTypeC": "None",
                   "usb700_1": "None",
@@ -7569,13 +7608,7 @@
                   "usb_3": "None",
                   "usb_4": "None",
                   "usb_5": "None",
-                  "usb_6": "None",
-                  "spdif": "Pcm",
-                  "hdmi": "None",
-                  "hdmi1": "Pcm",
-                  "hdmi2": "None",
-                  "hdmi3": "None",
-                  "hdmi4": "None"
+                  "usb_6": "None"
                 }
               }
             },
@@ -7609,6 +7642,12 @@
                   "usbB": "None",
                   "usbC": "None",
                   "usbD": "None",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None",
+                  "spdif": "Pcm",
                   "usbTypeA": "None",
                   "usbTypeC": "None",
                   "usb700_1": "None",
@@ -7623,13 +7662,7 @@
                   "usb_3": "None",
                   "usb_4": "None",
                   "usb_5": "None",
-                  "usb_6": "None",
-                  "spdif": "Pcm",
-                  "hdmi": "None",
-                  "hdmi1": "Pcm",
-                  "hdmi2": "None",
-                  "hdmi3": "None",
-                  "hdmi4": "None"
+                  "usb_6": "None"
                 }
               }
             },
@@ -7663,6 +7696,12 @@
                   "usbB": "None",
                   "usbC": "None",
                   "usbD": "None",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None",
+                  "spdif": "Pcm",
                   "usbTypeA": "None",
                   "usbTypeC": "None",
                   "usb700_1": "None",
@@ -7677,13 +7716,7 @@
                   "usb_3": "None",
                   "usb_4": "None",
                   "usb_5": "None",
-                  "usb_6": "None",
-                  "spdif": "Pcm",
-                  "hdmi": "None",
-                  "hdmi1": "Pcm",
-                  "hdmi2": "None",
-                  "hdmi3": "None",
-                  "hdmi4": "None"
+                  "usb_6": "None"
                 }
               }
             },
@@ -7717,6 +7750,12 @@
                   "usbB": "None",
                   "usbC": "None",
                   "usbD": "None",
+                  "hdmi": "None",
+                  "hdmi1": "Pcm",
+                  "hdmi2": "None",
+                  "hdmi3": "None",
+                  "hdmi4": "None",
+                  "spdif": "Pcm",
                   "usbTypeA": "None",
                   "usbTypeC": "None",
                   "usb700_1": "None",
@@ -7731,13 +7770,7 @@
                   "usb_3": "None",
                   "usb_4": "None",
                   "usb_5": "None",
-                  "usb_6": "None",
-                  "spdif": "Pcm",
-                  "hdmi": "None",
-                  "hdmi1": "Pcm",
-                  "hdmi2": "None",
-                  "hdmi3": "None",
-                  "hdmi4": "None"
+                  "usb_6": "None"
                 }
               }
             },
@@ -8398,21 +8431,21 @@
   "selection": {
     "hovered": null,
     "selectionContainer": {
-      "id": "818da330-3d98-4000-a244-50161b330000",
+      "id": "02251c09-22c7-4000-af37-bd30e24f0000",
       "type": "ZONE",
       "selectableType": "ZONE"
     },
     "selectionEntities": {},
     "prevSelectionEntities": {
-      "30635bc1-0a27-4000-ae7c-52f576c6a000": {
-        "id": "30635bc1-0a27-4000-ae7c-52f576c6a000",
+      "c52133a9-167b-4000-a207-36241ee64000": {
+        "id": "c52133a9-167b-4000-a207-36241ee64000",
         "type": "Event",
         "selectableType": "TRANSITION",
         "selectableData": null
       }
     },
     "isEventAdvancedEnabled": false,
-    "activeAssetMenuTab": "ASSETS"
+    "activeAssetMenuTab": "WIDGETS"
   },
   "interactiveCanvas": {
     "statePositionById": {
@@ -9738,6 +9771,13 @@
           "x": 1703.3157958984375,
           "y": -53.54861068725586
         }
+      },
+      "d4837021-945b-4000-a529-769cfbd10000": {
+        "id": "d4837021-945b-4000-a529-769cfbd10000",
+        "position": {
+          "x": -16.092256546020508,
+          "y": -211.9351806640625
+        }
       }
     },
     "eventDataById": {
@@ -9968,7 +10008,7 @@
       },
       "7535085e-5d6c-4000-a302-880fe0bf1000": {
         "id": "7535085e-5d6c-4000-a302-880fe0bf1000",
-        "displayType": "DisplayLabel",
+        "displayType": "Automatic",
         "labelLocation": "Bottom"
       },
       "d7ea3125-05d2-4000-ae39-c7fdcbc1d000": {
@@ -11205,6 +11245,11 @@
         "id": "adf2b4c7-83ce-4000-a468-6185e8db6000",
         "displayType": "DisplayLabel",
         "labelLocation": "Bottom"
+      },
+      "c52133a9-167b-4000-a207-36241ee64000": {
+        "id": "c52133a9-167b-4000-a207-36241ee64000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
       }
     },
     "viewTransformByZoneId": {
@@ -11224,9 +11269,9 @@
         "k": 0.3298769776932235
       },
       "02251c09-22c7-4000-af37-bd30e24f0000": {
-        "x": 584.2286256344807,
-        "y": 230.9816207565582,
-        "k": 0.3789291416276001
+        "x": 85.99786408008617,
+        "y": 668.9255251870129,
+        "k": 0.25000000000000033
       },
       "1f9f5e43-57cd-4000-a288-2bd222bcb000": {
         "x": 470.441148946145,
@@ -11314,9 +11359,9 @@
         "k": 0.34805034710487937
       },
       "818da330-3d98-4000-a244-50161b330000": {
-        "x": 733.2857718095879,
-        "y": 96.676957739655,
-        "k": 0.6320850503493263
+        "x": 324.6178304660678,
+        "y": 33.08175435424096,
+        "k": 0.15
       }
     },
     "isLoaderEnabled": false
