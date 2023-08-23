@@ -492,7 +492,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2023-08-23T08:53:13.034Z"
+      "lastModifiedTime": "2023-08-23T16:21:53.212Z"
     },
     "zones": {
       "zonesById": {
@@ -4245,6 +4245,22 @@
         "name": "Step 8_ev_ev",
         "type": "Serial",
         "mediaStateId": "aa288231-422c-4000-ab75-9555df2bc000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "reset",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "5ce3196a-e66e-4000-a87b-b9d7a295e000": {
+        "id": "5ce3196a-e66e-4000-a87b-b9d7a295e000",
+        "name": "Step 1_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "27463401-5d71-4000-a0d5-2e662d42d000",
         "disabled": false,
         "data": {
           "port": "2",
@@ -8470,12 +8486,19 @@
       "type": "ZONE",
       "selectableType": "ZONE"
     },
-    "selectionEntities": {},
-    "prevSelectionEntities": {
-      "1545c1f2-afa6-4000-a8aa-903888ece000": {
-        "id": "1545c1f2-afa6-4000-a8aa-903888ece000",
+    "selectionEntities": {
+      "5ce3196a-e66e-4000-a87b-b9d7a295e000": {
+        "id": "5ce3196a-e66e-4000-a87b-b9d7a295e000",
         "type": "Event",
         "selectableType": "TRANSITION",
+        "selectableData": null
+      }
+    },
+    "prevSelectionEntities": {
+      "27463401-5d71-4000-a0d5-2e662d42d000": {
+        "id": "27463401-5d71-4000-a0d5-2e662d42d000",
+        "type": "EventHandler",
+        "selectableType": "STATE",
         "selectableData": null
       }
     },
@@ -11285,6 +11308,11 @@
         "id": "d0b5ceb2-aec7-4000-a29e-bd2a13606000",
         "displayType": "DisplayLabel",
         "labelLocation": "Bottom"
+      },
+      "5ce3196a-e66e-4000-a87b-b9d7a295e000": {
+        "id": "5ce3196a-e66e-4000-a87b-b9d7a295e000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
       }
     },
     "viewTransformByZoneId": {
@@ -11304,9 +11332,9 @@
         "k": 0.5743491774985177
       },
       "02251c09-22c7-4000-af37-bd30e24f0000": {
-        "x": 744.2214850530361,
-        "y": 261.91265225171185,
-        "k": 0.4352752816480628
+        "x": 974.8293033997859,
+        "y": 105.554650653114,
+        "k": 0.8705505632961242
       },
       "1f9f5e43-57cd-4000-a288-2bd222bcb000": {
         "x": 470.441148946145,
@@ -11339,9 +11367,9 @@
         "k": 0.3298769776932235
       },
       "ab285ba0-065c-4000-addf-762645836000": {
-        "x": 172.75430547329302,
-        "y": 167.6282951305586,
-        "k": 0.3298769776932235
+        "x": 0,
+        "y": 0,
+        "k": 1
       },
       "806bd8a8-4f6d-4000-a705-5dcb0a0db000": {
         "x": 152.8179675965821,
