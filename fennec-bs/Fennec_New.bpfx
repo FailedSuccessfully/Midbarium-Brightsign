@@ -492,7 +492,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2023-08-21T09:02:03.299Z"
+      "lastModifiedTime": "2023-08-23T08:53:13.034Z"
     },
     "zones": {
       "zonesById": {
@@ -2765,7 +2765,7 @@
         "mediaStateId": "d8bcc1ee-29ae-4000-a4ef-f71c3f54e000",
         "disabled": false,
         "data": {
-          "interval": 15
+          "interval": 20
         },
         "action": "None"
       },
@@ -2920,83 +2920,6 @@
           "assignWildcardToUserVariable": false,
           "userVariableToAssignInput": "0",
           "userVariableToAssignWildcard": "0"
-        },
-        "action": "None"
-      },
-      "4ec39166-b2d9-4000-a4c4-17c4f6ae6000": {
-        "id": "4ec39166-b2d9-4000-a4c4-17c4f6ae6000",
-        "name": "Step 2_ev_ev",
-        "type": "Timer",
-        "mediaStateId": "81ac176c-7e2d-4000-a958-61704221c000",
-        "disabled": false,
-        "data": {
-          "interval": 60
-        },
-        "action": "None"
-      },
-      "66fcad42-2d8f-4000-a38b-3ebe314a9000": {
-        "id": "66fcad42-2d8f-4000-a38b-3ebe314a9000",
-        "name": "Step 3_ev_ev",
-        "type": "Timer",
-        "mediaStateId": "1695737c-c2a2-4000-a088-199e8a28e000",
-        "disabled": false,
-        "data": {
-          "interval": 60
-        },
-        "action": "None"
-      },
-      "6af9caed-c735-4000-ab4d-9f7e2634b000": {
-        "id": "6af9caed-c735-4000-ab4d-9f7e2634b000",
-        "name": "Step 4_ev_ev",
-        "type": "Timer",
-        "mediaStateId": "3b826bbb-3ee4-4000-a11e-d7542981f000",
-        "disabled": false,
-        "data": {
-          "interval": 60
-        },
-        "action": "None"
-      },
-      "898de35f-7b47-4000-a2fd-d42bf6d71000": {
-        "id": "898de35f-7b47-4000-a2fd-d42bf6d71000",
-        "name": "Step 5_ev_ev",
-        "type": "Timer",
-        "mediaStateId": "9884d784-308c-4000-af31-aecd57a5e000",
-        "disabled": false,
-        "data": {
-          "interval": 60
-        },
-        "action": "None"
-      },
-      "31610569-1bcd-4000-a1d3-0f519a3b2000": {
-        "id": "31610569-1bcd-4000-a1d3-0f519a3b2000",
-        "name": "Step 6_ev_ev",
-        "type": "Timer",
-        "mediaStateId": "5614b6a3-4398-4000-a2e8-4e979a64f000",
-        "disabled": false,
-        "data": {
-          "interval": 60
-        },
-        "action": "None"
-      },
-      "9d31c89f-479d-4000-a32c-b928ffbdf000": {
-        "id": "9d31c89f-479d-4000-a32c-b928ffbdf000",
-        "name": "Step 7_ev_ev",
-        "type": "Timer",
-        "mediaStateId": "793b7f5b-8fda-4000-abb2-b260c3fcb000",
-        "disabled": false,
-        "data": {
-          "interval": 60
-        },
-        "action": "None"
-      },
-      "2defd98c-6b94-4000-a0ba-c882fdc22000": {
-        "id": "2defd98c-6b94-4000-a0ba-c882fdc22000",
-        "name": "Step 8_ev_ev",
-        "type": "Timer",
-        "mediaStateId": "aa288231-422c-4000-ab75-9555df2bc000",
-        "disabled": false,
-        "data": {
-          "interval": 60
         },
         "action": "None"
       },
@@ -4217,7 +4140,119 @@
         "mediaStateId": "d4837021-945b-4000-a529-769cfbd10000",
         "disabled": false,
         "data": {
-          "interval": 6
+          "interval": 5
+        },
+        "action": "None"
+      },
+      "1545c1f2-afa6-4000-a8aa-903888ece000": {
+        "id": "1545c1f2-afa6-4000-a8aa-903888ece000",
+        "name": "Step 2_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "81ac176c-7e2d-4000-a958-61704221c000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "reset",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "2fbbfbba-9441-4000-af1d-14c9f1cef000": {
+        "id": "2fbbfbba-9441-4000-af1d-14c9f1cef000",
+        "name": "Step 3_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "1695737c-c2a2-4000-a088-199e8a28e000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "reset",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "04f2dd6f-7753-4000-a194-b895b6837000": {
+        "id": "04f2dd6f-7753-4000-a194-b895b6837000",
+        "name": "Step 4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "3b826bbb-3ee4-4000-a11e-d7542981f000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "reset",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "3ad1d14a-b6e1-4000-ab9b-08d04f5c6000": {
+        "id": "3ad1d14a-b6e1-4000-ab9b-08d04f5c6000",
+        "name": "Step 5_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "9884d784-308c-4000-af31-aecd57a5e000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "reset",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "3596d692-6ce0-4000-ac21-3bc38a3b4000": {
+        "id": "3596d692-6ce0-4000-ac21-3bc38a3b4000",
+        "name": "Step 6_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "5614b6a3-4398-4000-a2e8-4e979a64f000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "reset",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "b2019e4f-339f-4000-a1dc-ab50b9530000": {
+        "id": "b2019e4f-339f-4000-a1dc-ab50b9530000",
+        "name": "Step 7_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "793b7f5b-8fda-4000-abb2-b260c3fcb000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "reset",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "d0b5ceb2-aec7-4000-a29e-bd2a13606000": {
+        "id": "d0b5ceb2-aec7-4000-a29e-bd2a13606000",
+        "name": "Step 8_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "aa288231-422c-4000-ab75-9555df2bc000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "reset",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
         },
         "action": "None"
       }
@@ -4461,62 +4496,6 @@
           "name": "Event Handler_tr_ev",
           "eventId": "c9392698-6c0f-4000-a0ca-068a36f67000",
           "targetMediaStateId": "27463401-5d71-4000-a0d5-2e662d42d000",
-          "type": "No effect",
-          "duration": 0
-        },
-        "1d8561cf-0534-4000-aa6f-68e65c949000": {
-          "id": "1d8561cf-0534-4000-aa6f-68e65c949000",
-          "name": "Step 2_ev_tr",
-          "eventId": "4ec39166-b2d9-4000-a4c4-17c4f6ae6000",
-          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
-          "type": "No effect",
-          "duration": 0
-        },
-        "42bd0b8f-95b5-4000-aea7-55ff22608000": {
-          "id": "42bd0b8f-95b5-4000-aea7-55ff22608000",
-          "name": "Step 3_ev_tr",
-          "eventId": "66fcad42-2d8f-4000-a38b-3ebe314a9000",
-          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
-          "type": "No effect",
-          "duration": 0
-        },
-        "a8bb0c92-1e53-4000-ae8b-5f5afbbac000": {
-          "id": "a8bb0c92-1e53-4000-ae8b-5f5afbbac000",
-          "name": "Step 4_ev_tr",
-          "eventId": "6af9caed-c735-4000-ab4d-9f7e2634b000",
-          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
-          "type": "No effect",
-          "duration": 0
-        },
-        "ad93ba6d-c781-4000-a87f-1b2e2255e000": {
-          "id": "ad93ba6d-c781-4000-a87f-1b2e2255e000",
-          "name": "Step 5_ev_tr",
-          "eventId": "898de35f-7b47-4000-a2fd-d42bf6d71000",
-          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
-          "type": "No effect",
-          "duration": 0
-        },
-        "48f0c390-8513-4000-aa62-acc682390000": {
-          "id": "48f0c390-8513-4000-aa62-acc682390000",
-          "name": "Step 6_ev_tr",
-          "eventId": "31610569-1bcd-4000-a1d3-0f519a3b2000",
-          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
-          "type": "No effect",
-          "duration": 0
-        },
-        "47f1d693-d940-4000-ac2b-b0f1ed6a6000": {
-          "id": "47f1d693-d940-4000-ac2b-b0f1ed6a6000",
-          "name": "Step 7_ev_tr",
-          "eventId": "9d31c89f-479d-4000-a32c-b928ffbdf000",
-          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
-          "type": "No effect",
-          "duration": 0
-        },
-        "b13eb0b8-d7ae-4000-a5fa-d5e8fd2a7000": {
-          "id": "b13eb0b8-d7ae-4000-a5fa-d5e8fd2a7000",
-          "name": "Step 8_ev_tr",
-          "eventId": "2defd98c-6b94-4000-a0ba-c882fdc22000",
-          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
           "type": "No effect",
           "duration": 0
         },
@@ -6583,6 +6562,62 @@
           "targetMediaStateId": "d8bcc1ee-29ae-4000-a4ef-f71c3f54e000",
           "type": "No effect",
           "duration": 0
+        },
+        "c6afa7b6-81f1-4000-a45e-05f4b6aa9000": {
+          "id": "c6afa7b6-81f1-4000-a45e-05f4b6aa9000",
+          "name": "Step 2_ev_tr",
+          "eventId": "1545c1f2-afa6-4000-a8aa-903888ece000",
+          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "823d6da5-3755-4000-a20a-909e552e8000": {
+          "id": "823d6da5-3755-4000-a20a-909e552e8000",
+          "name": "Step 3_ev_tr",
+          "eventId": "2fbbfbba-9441-4000-af1d-14c9f1cef000",
+          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "b6e79027-034e-4000-a96d-7e7c3cbab000": {
+          "id": "b6e79027-034e-4000-a96d-7e7c3cbab000",
+          "name": "Step 4_ev_tr",
+          "eventId": "04f2dd6f-7753-4000-a194-b895b6837000",
+          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "04d24e8b-316f-4000-a872-d60e775fe000": {
+          "id": "04d24e8b-316f-4000-a872-d60e775fe000",
+          "name": "Step 5_ev_tr",
+          "eventId": "3ad1d14a-b6e1-4000-ab9b-08d04f5c6000",
+          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "2e19836f-5c45-4000-ab81-987372c39000": {
+          "id": "2e19836f-5c45-4000-ab81-987372c39000",
+          "name": "Step 6_ev_tr",
+          "eventId": "3596d692-6ce0-4000-ac21-3bc38a3b4000",
+          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "fec079da-3a8a-4000-a722-90507cdad000": {
+          "id": "fec079da-3a8a-4000-a722-90507cdad000",
+          "name": "Step 7_ev_tr",
+          "eventId": "b2019e4f-339f-4000-a1dc-ab50b9530000",
+          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "b2a0a6a1-1748-4000-ada7-355b32ddc000": {
+          "id": "b2a0a6a1-1748-4000-ada7-355b32ddc000",
+          "name": "Step 8_ev_tr",
+          "eventId": "d0b5ceb2-aec7-4000-a29e-bd2a13606000",
+          "targetMediaStateId": "a8488ae9-323f-4000-a488-8119d7598000",
+          "type": "No effect",
+          "duration": 0
         }
       },
       "sequencesByEventId": {
@@ -8431,14 +8466,14 @@
   "selection": {
     "hovered": null,
     "selectionContainer": {
-      "id": "24511bf1-30e2-4000-a956-6eea96e8f000",
+      "id": "02251c09-22c7-4000-af37-bd30e24f0000",
       "type": "ZONE",
       "selectableType": "ZONE"
     },
     "selectionEntities": {},
     "prevSelectionEntities": {
-      "79e3d565-08d9-4000-a971-8a5e8018e000": {
-        "id": "79e3d565-08d9-4000-a971-8a5e8018e000",
+      "1545c1f2-afa6-4000-a8aa-903888ece000": {
+        "id": "1545c1f2-afa6-4000-a8aa-903888ece000",
         "type": "Event",
         "selectableType": "TRANSITION",
         "selectableData": null
@@ -8648,8 +8683,8 @@
       "aa288231-422c-4000-ab75-9555df2bc000": {
         "id": "aa288231-422c-4000-ab75-9555df2bc000",
         "position": {
-          "x": 928.3139038085938,
-          "y": 48.85706901550293
+          "x": 938.3139038085938,
+          "y": -121.14293098449707
         }
       },
       "d8bcc1ee-29ae-4000-a4ef-f71c3f54e000": {
@@ -10801,41 +10836,6 @@
         "displayType": "DisplayLabel",
         "labelLocation": "Bottom"
       },
-      "4ec39166-b2d9-4000-a4c4-17c4f6ae6000": {
-        "id": "4ec39166-b2d9-4000-a4c4-17c4f6ae6000",
-        "displayType": "DisplayLabel",
-        "labelLocation": "Bottom"
-      },
-      "66fcad42-2d8f-4000-a38b-3ebe314a9000": {
-        "id": "66fcad42-2d8f-4000-a38b-3ebe314a9000",
-        "displayType": "DisplayLabel",
-        "labelLocation": "Bottom"
-      },
-      "6af9caed-c735-4000-ab4d-9f7e2634b000": {
-        "id": "6af9caed-c735-4000-ab4d-9f7e2634b000",
-        "displayType": "DisplayLabel",
-        "labelLocation": "Bottom"
-      },
-      "898de35f-7b47-4000-a2fd-d42bf6d71000": {
-        "id": "898de35f-7b47-4000-a2fd-d42bf6d71000",
-        "displayType": "DisplayLabel",
-        "labelLocation": "Bottom"
-      },
-      "31610569-1bcd-4000-a1d3-0f519a3b2000": {
-        "id": "31610569-1bcd-4000-a1d3-0f519a3b2000",
-        "displayType": "DisplayLabel",
-        "labelLocation": "Bottom"
-      },
-      "9d31c89f-479d-4000-a32c-b928ffbdf000": {
-        "id": "9d31c89f-479d-4000-a32c-b928ffbdf000",
-        "displayType": "DisplayLabel",
-        "labelLocation": "Bottom"
-      },
-      "2defd98c-6b94-4000-a0ba-c882fdc22000": {
-        "id": "2defd98c-6b94-4000-a0ba-c882fdc22000",
-        "displayType": "DisplayLabel",
-        "labelLocation": "Bottom"
-      },
       "7d65b49b-8c04-4000-a68c-5072d6d37000": {
         "id": "7d65b49b-8c04-4000-a68c-5072d6d37000",
         "displayType": "DisplayLine",
@@ -11250,6 +11250,41 @@
         "id": "c52133a9-167b-4000-a207-36241ee64000",
         "displayType": "DisplayLine",
         "labelLocation": "Bottom"
+      },
+      "1545c1f2-afa6-4000-a8aa-903888ece000": {
+        "id": "1545c1f2-afa6-4000-a8aa-903888ece000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "2fbbfbba-9441-4000-af1d-14c9f1cef000": {
+        "id": "2fbbfbba-9441-4000-af1d-14c9f1cef000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "04f2dd6f-7753-4000-a194-b895b6837000": {
+        "id": "04f2dd6f-7753-4000-a194-b895b6837000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "3ad1d14a-b6e1-4000-ab9b-08d04f5c6000": {
+        "id": "3ad1d14a-b6e1-4000-ab9b-08d04f5c6000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "3596d692-6ce0-4000-ac21-3bc38a3b4000": {
+        "id": "3596d692-6ce0-4000-ac21-3bc38a3b4000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "b2019e4f-339f-4000-a1dc-ab50b9530000": {
+        "id": "b2019e4f-339f-4000-a1dc-ab50b9530000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "d0b5ceb2-aec7-4000-a29e-bd2a13606000": {
+        "id": "d0b5ceb2-aec7-4000-a29e-bd2a13606000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
       }
     },
     "viewTransformByZoneId": {
@@ -11264,14 +11299,14 @@
         "k": 0.28717458874925955
       },
       "24511bf1-30e2-4000-a956-6eea96e8f000": {
-        "x": 317.1033270803431,
-        "y": 264.72808160908585,
-        "k": 0.2871745887492587
+        "x": -269.57331390816876,
+        "y": 113.93702533276203,
+        "k": 0.5743491774985177
       },
       "02251c09-22c7-4000-af37-bd30e24f0000": {
-        "x": 636.5,
-        "y": 236.50000000000003,
-        "k": 0.49999999999999994
+        "x": 744.2214850530361,
+        "y": 261.91265225171185,
+        "k": 0.4352752816480628
       },
       "1f9f5e43-57cd-4000-a288-2bd222bcb000": {
         "x": 470.441148946145,
