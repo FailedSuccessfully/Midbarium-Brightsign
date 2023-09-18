@@ -496,7 +496,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2023-09-03T07:55:50.143Z"
+      "lastModifiedTime": "2023-09-18T14:21:44.252Z"
     },
     "zones": {
       "zonesById": {
@@ -654,7 +654,7 @@
         "66145270-2433-4000-aeef-6c5211ffc000"
       ],
       "zoneTagIndices": {
-        "013e44a3-afa0-4000-aa92-e091e5e18000": 14,
+        "013e44a3-afa0-4000-aa92-e091e5e18000": 15,
         "70d26da6-978a-4000-af33-d5b62fe18000": 3,
         "10cfc61e-5ce3-4000-ade2-c1243ddae000": 10
       }
@@ -1342,21 +1342,6 @@
             "volume": 100
           }
         },
-        "5b1cb629-bf4f-4000-a3b5-32dac4bd1000": {
-          "id": "5b1cb629-bf4f-4000-a3b5-32dac4bd1000",
-          "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "635f5dda-a51e-4000-ab55-bc25fd4ea000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "6a08d34a-3392-4000-a5cb-e50263f4d000",
-            "volume": 100
-          }
-        },
         "75f71111-7b93-4000-a252-84c267208000": {
           "id": "75f71111-7b93-4000-a252-84c267208000",
           "name": "Giraffe Game ARAB 2  sound V1 16-1-23.wav",
@@ -1500,9 +1485,9 @@
             "type": 0
           },
           "contentItem": {
-            "name": "arab end",
+            "name": "Giraffe Game ARAB 13(replacement) sound V2 13.09.23.wav",
             "type": "Audio",
-            "assetId": "2bc61a13-84b0-4000-a487-2a718d399000",
+            "assetId": "eaea85fd-1787-4000-ad07-8d3305cfa000",
             "volume": 100
           }
         },
@@ -1578,7 +1563,6 @@
           "sequence": [
             "52383ab8-d3ef-4000-ad80-8b3a80460000",
             "01e3e3dd-1542-4000-aef2-9e44f9667000",
-            "5b1cb629-bf4f-4000-a3b5-32dac4bd1000",
             "75f71111-7b93-4000-a252-84c267208000",
             "4cc3d6ca-b1a6-4000-a9ff-d307304bb000",
             "78aeeb1a-a85b-4000-a18a-e63cad54a000",
@@ -3231,20 +3215,6 @@
         "lastModifiedDate": "2023-08-20T07:50:26.212Z",
         "refCount": 1
       },
-      "6a08d34a-3392-4000-a5cb-e50263f4d000": {
-        "id": "6a08d34a-3392-4000-a5cb-e50263f4d000",
-        "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 12  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 3376818,
-        "lastModifiedDate": "2023-08-20T07:50:26.231Z",
-        "refCount": 1
-      },
       "5bdcca5b-92ca-4000-a696-6c3dd7b79000": {
         "id": "5bdcca5b-92ca-4000-a696-6c3dd7b79000",
         "name": "Giraffe Game ARAB 2  sound V1 16-1-23.wav",
@@ -3357,20 +3327,6 @@
         "lastModifiedDate": "2023-08-20T07:50:26.524Z",
         "refCount": 1
       },
-      "2bc61a13-84b0-4000-a487-2a718d399000": {
-        "id": "2bc61a13-84b0-4000-a487-2a718d399000",
-        "name": "Giraffe Game ARAB 13  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 13  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 13230426,
-        "lastModifiedDate": "2023-08-20T07:50:26.317Z",
-        "refCount": 1
-      },
       "c8e609c3-a62b-4000-ae16-75eae80fe000": {
         "id": "c8e609c3-a62b-4000-ae16-75eae80fe000",
         "name": "Giraffe Game ENG 13  sound V1 16-1-23.wav",
@@ -3398,6 +3354,20 @@
         "fileSize": 13404938,
         "lastModifiedDate": "2023-08-20T07:50:27.034Z",
         "refCount": 1
+      },
+      "eaea85fd-1787-4000-ad07-8d3305cfa000": {
+        "id": "eaea85fd-1787-4000-ad07-8d3305cfa000",
+        "name": "Giraffe Game ARAB 13(replacement) sound V2 13.09.23.wav",
+        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "8abe692c70b45aa0",
+        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 13(replacement) sound V2 13.09.23.wav",
+        "mediaType": "Audio",
+        "fileSize": 22017080,
+        "lastModifiedDate": "2023-09-18T14:20:02.508Z",
+        "refCount": 1
       }
     },
     "thumbnail": null
@@ -3405,22 +3375,22 @@
   "selection": {
     "hovered": null,
     "selectionContainer": {
-      "id": "10cfc61e-5ce3-4000-ade2-c1243ddae000",
+      "id": "013e44a3-afa0-4000-aa92-e091e5e18000",
       "type": "ZONE",
       "selectableType": "ZONE"
     },
     "selectionEntities": {
-      "10850081-3e62-4000-a072-cfc2449bc000": {
-        "id": "10850081-3e62-4000-a072-cfc2449bc000",
-        "type": "Event",
-        "selectableType": "TRANSITION",
+      "3583e1b4-e596-4000-a787-b2849ed1c000": {
+        "id": "3583e1b4-e596-4000-a787-b2849ed1c000",
+        "type": "Audio",
+        "selectableType": "STATE",
         "selectableData": null
       }
     },
     "prevSelectionEntities": {
-      "3ea255b9-57bd-4000-afbf-f6f490b44000": {
-        "id": "3ea255b9-57bd-4000-afbf-f6f490b44000",
-        "type": "EventHandler",
+      "3583e1b4-e596-4000-a787-b2849ed1c000": {
+        "id": "3583e1b4-e596-4000-a787-b2849ed1c000",
+        "type": "Audio",
         "selectableType": "STATE",
         "selectableData": null
       }
@@ -3803,14 +3773,14 @@
     },
     "viewTransformByZoneId": {
       "10cfc61e-5ce3-4000-ade2-c1243ddae000": {
-        "x": 322.63844828674263,
-        "y": -191.51945717495,
-        "k": 0.33394433693783404
+        "x": 304.0479323733563,
+        "y": -67.49315368649388,
+        "k": 0.22032109717364043
       },
       "013e44a3-afa0-4000-aa92-e091e5e18000": {
-        "x": 287.69921159269825,
-        "y": 29.86677613791801,
-        "k": 0.5814308612615638
+        "x": 24.96385855363951,
+        "y": -948.6367319403178,
+        "k": 0.8812843886945617
       },
       "70d26da6-978a-4000-af33-d5b62fe18000": {
         "x": 306.21267844530473,
