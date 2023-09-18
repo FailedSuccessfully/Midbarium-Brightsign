@@ -496,7 +496,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2023-09-18T14:21:44.252Z"
+      "lastModifiedTime": "2023-09-18T14:29:36.382Z"
     },
     "zones": {
       "zonesById": {
@@ -654,7 +654,7 @@
         "66145270-2433-4000-aeef-6c5211ffc000"
       ],
       "zoneTagIndices": {
-        "013e44a3-afa0-4000-aa92-e091e5e18000": 15,
+        "013e44a3-afa0-4000-aa92-e091e5e18000": 17,
         "70d26da6-978a-4000-af33-d5b62fe18000": 3,
         "10cfc61e-5ce3-4000-ade2-c1243ddae000": 10
       }
@@ -1520,6 +1520,34 @@
             "assetId": "99c259e8-6522-4000-aee5-a755ab054000",
             "volume": 100
           }
+        },
+        "22797c65-4960-4000-a160-dbf09c7c6000": {
+          "id": "22797c65-4960-4000-a160-dbf09c7c6000",
+          "name": "Heb pre-end",
+          "tag": "15",
+          "container": {
+            "id": "013e44a3-afa0-4000-aa92-e091e5e18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Heb pre-end",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "b3fb6d6a-c8f6-4000-a676-a9a9da2ca000": {
+          "id": "b3fb6d6a-c8f6-4000-a676-a9a9da2ca000",
+          "name": "Eng pre-end",
+          "tag": "16",
+          "container": {
+            "id": "013e44a3-afa0-4000-aa92-e091e5e18000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Eng pre-end",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
         }
       },
       "sequencesByParentId": {
@@ -1983,7 +2011,7 @@
         "mediaStateId": "e5d04b01-fd26-4000-a79f-ad9e71b34000",
         "disabled": false,
         "data": {
-          "interval": 138
+          "interval": 24
         },
         "action": "None"
       },
@@ -2069,6 +2097,28 @@
           "assignWildcardToUserVariable": false,
           "userVariableToAssignInput": "0",
           "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "d9660b59-d7ea-4000-a254-dc9a88e3a000": {
+        "id": "d9660b59-d7ea-4000-a254-dc9a88e3a000",
+        "name": "Heb pre-end_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "22797c65-4960-4000-a160-dbf09c7c6000",
+        "disabled": false,
+        "data": {
+          "interval": 2
+        },
+        "action": "None"
+      },
+      "89b3c88d-acdd-4000-a200-0d3bf01aa000": {
+        "id": "89b3c88d-acdd-4000-a200-0d3bf01aa000",
+        "name": "Eng pre-end_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "b3fb6d6a-c8f6-4000-a676-a9a9da2ca000",
+        "disabled": false,
+        "data": {
+          "interval": 3
         },
         "action": "None"
       }
@@ -2420,7 +2470,7 @@
           "id": "d346370c-d8a1-4000-aaa7-5e95af6db000",
           "name": "Hebrew Waiter_ev_tr",
           "eventId": "d61cba5f-66a8-4000-a336-f74feb66e000",
-          "targetMediaStateId": "a002a82d-e51e-4000-adf2-5627cdc98000",
+          "targetMediaStateId": "22797c65-4960-4000-a160-dbf09c7c6000",
           "type": "No effect",
           "duration": 0
         },
@@ -2428,7 +2478,7 @@
           "id": "f2146178-8282-4000-ae25-ba0b74637000",
           "name": "English Waiter_ev_tr",
           "eventId": "57de9822-3d5e-4000-a98b-9f3b8aa19000",
-          "targetMediaStateId": "6ab1368b-e022-4000-a384-3e5b642b4000",
+          "targetMediaStateId": "b3fb6d6a-c8f6-4000-a676-a9a9da2ca000",
           "type": "No effect",
           "duration": 0
         },
@@ -2437,6 +2487,22 @@
           "name": "Arab Waiter_ev_tr",
           "eventId": "7d1546c2-4927-4000-a8a3-6c3727b2f000",
           "targetMediaStateId": "3583e1b4-e596-4000-a787-b2849ed1c000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "e92e5ec4-3999-4000-a64b-9f3a6281c000": {
+          "id": "e92e5ec4-3999-4000-a64b-9f3a6281c000",
+          "name": "Heb pre-end_ev_tr",
+          "eventId": "d9660b59-d7ea-4000-a254-dc9a88e3a000",
+          "targetMediaStateId": "a002a82d-e51e-4000-adf2-5627cdc98000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "f6e8229a-b775-4000-a7a6-04269c939000": {
+          "id": "f6e8229a-b775-4000-a7a6-04269c939000",
+          "name": "Eng pre-end_ev_tr",
+          "eventId": "89b3c88d-acdd-4000-a200-0d3bf01aa000",
+          "targetMediaStateId": "6ab1368b-e022-4000-a384-3e5b642b4000",
           "type": "No effect",
           "duration": 0
         }
@@ -3379,24 +3445,29 @@
       "type": "ZONE",
       "selectableType": "ZONE"
     },
-    "selectionEntities": {
-      "3583e1b4-e596-4000-a787-b2849ed1c000": {
-        "id": "3583e1b4-e596-4000-a787-b2849ed1c000",
-        "type": "Audio",
-        "selectableType": "STATE",
-        "selectableData": null
-      }
-    },
+    "selectionEntities": {},
     "prevSelectionEntities": {
-      "3583e1b4-e596-4000-a787-b2849ed1c000": {
-        "id": "3583e1b4-e596-4000-a787-b2849ed1c000",
-        "type": "Audio",
-        "selectableType": "STATE",
+      "aaccd47a-671d-4000-a9d2-d7de2dfc4000": {
+        "id": "aaccd47a-671d-4000-a9d2-d7de2dfc4000",
+        "type": "EVENT",
+        "selectableType": "TRANSITION",
+        "selectableData": null
+      },
+      "071db42a-1608-4000-a781-e4d77d39e000": {
+        "id": "071db42a-1608-4000-a781-e4d77d39e000",
+        "type": "EVENT",
+        "selectableType": "TRANSITION",
+        "selectableData": null
+      },
+      "0de7ac46-24ed-4000-a195-bfaf62349000": {
+        "id": "0de7ac46-24ed-4000-a195-bfaf62349000",
+        "type": "EVENT",
+        "selectableType": "TRANSITION",
         "selectableData": null
       }
     },
     "isEventAdvancedEnabled": false,
-    "activeAssetMenuTab": "ASSETS"
+    "activeAssetMenuTab": "WIDGETS"
   },
   "interactiveCanvas": {
     "statePositionById": {
@@ -3557,15 +3628,29 @@
       "6ab1368b-e022-4000-a384-3e5b642b4000": {
         "id": "6ab1368b-e022-4000-a384-3e5b642b4000",
         "position": {
-          "x": 465.9638366699219,
-          "y": 1303.46044921875
+          "x": 477.9418640136719,
+          "y": 1489.1201171875
         }
       },
       "a002a82d-e51e-4000-adf2-5627cdc98000": {
         "id": "a002a82d-e51e-4000-adf2-5627cdc98000",
         "position": {
-          "x": 262.84625244140625,
-          "y": 1300.889404296875
+          "x": 212.18792724609375,
+          "y": 1505.100341796875
+        }
+      },
+      "22797c65-4960-4000-a160-dbf09c7c6000": {
+        "id": "22797c65-4960-4000-a160-dbf09c7c6000",
+        "position": {
+          "x": 208.39634704589844,
+          "y": 1247.6954345703125
+        }
+      },
+      "b3fb6d6a-c8f6-4000-a676-a9a9da2ca000": {
+        "id": "b3fb6d6a-c8f6-4000-a676-a9a9da2ca000",
+        "position": {
+          "x": 464.42706298828125,
+          "y": 1282.13232421875
         }
       }
     },
@@ -3769,23 +3854,33 @@
         "id": "7d1546c2-4927-4000-a8a3-6c3727b2f000",
         "displayType": "DisplayLabel",
         "labelLocation": "Bottom"
+      },
+      "d9660b59-d7ea-4000-a254-dc9a88e3a000": {
+        "id": "d9660b59-d7ea-4000-a254-dc9a88e3a000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
+      },
+      "89b3c88d-acdd-4000-a200-0d3bf01aa000": {
+        "id": "89b3c88d-acdd-4000-a200-0d3bf01aa000",
+        "displayType": "DisplayLine",
+        "labelLocation": "Bottom"
       }
     },
     "viewTransformByZoneId": {
       "10cfc61e-5ce3-4000-ade2-c1243ddae000": {
-        "x": 304.0479323733563,
-        "y": -67.49315368649388,
-        "k": 0.22032109717364043
+        "x": 319.63631124007304,
+        "y": 73.78303382606208,
+        "k": 0.2530824818945028
       },
       "013e44a3-afa0-4000-aa92-e091e5e18000": {
-        "x": 24.96385855363951,
-        "y": -948.6367319403178,
-        "k": 0.8812843886945617
+        "x": 241.54849119025107,
+        "y": -384.10424573913974,
+        "k": 0.44064219434728114
       },
       "70d26da6-978a-4000-af33-d5b62fe18000": {
-        "x": 306.21267844530473,
-        "y": 80.85171942728891,
-        "k": 0.5997636633946283
+        "x": 93.86368354334502,
+        "y": -826.4635953700551,
+        "k": 0.7672026210021315
       }
     },
     "isLoaderEnabled": false
