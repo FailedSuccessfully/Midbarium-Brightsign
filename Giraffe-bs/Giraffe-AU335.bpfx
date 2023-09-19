@@ -496,7 +496,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2023-09-18T14:29:36.382Z"
+      "lastModifiedTime": "2023-09-19T12:50:55.331Z"
     },
     "zones": {
       "zonesById": {
@@ -2121,6 +2121,17 @@
           "interval": 3
         },
         "action": "None"
+      },
+      "17dd2bf6-7052-4000-af9a-744317694000": {
+        "id": "17dd2bf6-7052-4000-af9a-744317694000",
+        "name": "Contact Close_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "f7b395c9-fb43-4000-a9ea-5c49825a2000",
+        "disabled": false,
+        "data": {
+          "interval": 130
+        },
+        "action": "None"
       }
     },
     "transitions": {
@@ -2503,6 +2514,14 @@
           "name": "Eng pre-end_ev_tr",
           "eventId": "89b3c88d-acdd-4000-a200-0d3bf01aa000",
           "targetMediaStateId": "6ab1368b-e022-4000-a384-3e5b642b4000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "78713f80-6c78-4000-a82e-857f8b4aa000": {
+          "id": "78713f80-6c78-4000-a82e-857f8b4aa000",
+          "name": "Contact Close_ev_tr",
+          "eventId": "17dd2bf6-7052-4000-af9a-744317694000",
+          "targetMediaStateId": "99d818c9-eac2-4000-adc0-d953f4750000",
           "type": "No effect",
           "duration": 0
         }
@@ -3441,27 +3460,15 @@
   "selection": {
     "hovered": null,
     "selectionContainer": {
-      "id": "013e44a3-afa0-4000-aa92-e091e5e18000",
+      "id": "10cfc61e-5ce3-4000-ade2-c1243ddae000",
       "type": "ZONE",
       "selectableType": "ZONE"
     },
     "selectionEntities": {},
     "prevSelectionEntities": {
-      "aaccd47a-671d-4000-a9d2-d7de2dfc4000": {
-        "id": "aaccd47a-671d-4000-a9d2-d7de2dfc4000",
-        "type": "EVENT",
-        "selectableType": "TRANSITION",
-        "selectableData": null
-      },
-      "071db42a-1608-4000-a781-e4d77d39e000": {
-        "id": "071db42a-1608-4000-a781-e4d77d39e000",
-        "type": "EVENT",
-        "selectableType": "TRANSITION",
-        "selectableData": null
-      },
-      "0de7ac46-24ed-4000-a195-bfaf62349000": {
-        "id": "0de7ac46-24ed-4000-a195-bfaf62349000",
-        "type": "EVENT",
+      "17dd2bf6-7052-4000-af9a-744317694000": {
+        "id": "17dd2bf6-7052-4000-af9a-744317694000",
+        "type": "Event",
         "selectableType": "TRANSITION",
         "selectableData": null
       }
@@ -3864,18 +3871,23 @@
         "id": "89b3c88d-acdd-4000-a200-0d3bf01aa000",
         "displayType": "DisplayLine",
         "labelLocation": "Bottom"
+      },
+      "17dd2bf6-7052-4000-af9a-744317694000": {
+        "id": "17dd2bf6-7052-4000-af9a-744317694000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
       }
     },
     "viewTransformByZoneId": {
       "10cfc61e-5ce3-4000-ade2-c1243ddae000": {
-        "x": 319.63631124007304,
-        "y": 73.78303382606208,
-        "k": 0.2530824818945028
+        "x": 325.9717190849493,
+        "y": 16.117801659363238,
+        "k": 0.5814308612615657
       },
       "013e44a3-afa0-4000-aa92-e091e5e18000": {
-        "x": 241.54849119025107,
-        "y": -384.10424573913974,
-        "k": 0.44064219434728114
+        "x": 357.32054665925466,
+        "y": -377.4437199006703,
+        "k": 0.5061649637890066
       },
       "70d26da6-978a-4000-af33-d5b62fe18000": {
         "x": 93.86368354334502,
