@@ -1,6 +1,6 @@
 {
   "meta": {
-    "brightAuthorVersion": "1.19.2",
+    "brightAuthorVersion": "1.19.3",
     "buildType": "Standard"
   },
   "bsdm": {
@@ -496,7 +496,7 @@
         }
       },
       "wssDeviceSpec": {},
-      "lastModifiedTime": "2023-10-02T09:15:50.776Z"
+      "lastModifiedTime": "2024-02-06T13:54:44.342Z"
     },
     "zones": {
       "zonesById": {
@@ -1012,36 +1012,6 @@
             "volume": 100
           }
         },
-        "e8b23591-6c55-4000-aa1f-6ca5042b6000": {
-          "id": "e8b23591-6c55-4000-aa1f-6ca5042b6000",
-          "name": "Giraffe Game HEB 12 sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "a30d457b-7ee2-4000-ad82-66947b4e2000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game HEB 12 sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "902b6f90-0453-4000-a02f-60f487fb0000",
-            "volume": 100
-          }
-        },
-        "deb3702c-9e0c-4000-ab1f-533271851000": {
-          "id": "deb3702c-9e0c-4000-ab1f-533271851000",
-          "name": "Giraffe Game HEB 2 sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "a30d457b-7ee2-4000-ad82-66947b4e2000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game HEB 2 sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "d4689291-6689-4000-ac94-80b374883000",
-            "volume": 100
-          }
-        },
         "a468543b-298b-4000-a169-6052b4fb3000": {
           "id": "a468543b-298b-4000-a169-6052b4fb3000",
           "name": "Giraffe Game HEB 3 sound V1 16-1-23.wav",
@@ -1054,51 +1024,6 @@
             "name": "Giraffe Game HEB 3 sound V1 16-1-23.wav",
             "type": "Audio",
             "assetId": "e5a7f8c0-1732-4000-ac5b-35c5c782a000",
-            "volume": 100
-          }
-        },
-        "54fcddc2-b870-4000-af73-e11a332e6000": {
-          "id": "54fcddc2-b870-4000-af73-e11a332e6000",
-          "name": "Giraffe Game HEB 4 sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "a30d457b-7ee2-4000-ad82-66947b4e2000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game HEB 4 sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "93362dcc-6e46-4000-a696-92c993fcb000",
-            "volume": 100
-          }
-        },
-        "0dd4c596-b6f5-4000-a102-83d74b3ac000": {
-          "id": "0dd4c596-b6f5-4000-a102-83d74b3ac000",
-          "name": "Giraffe Game HEB 5 sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "a30d457b-7ee2-4000-ad82-66947b4e2000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game HEB 5 sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "a1fc3214-e6b6-4000-a773-ee73f8242000",
-            "volume": 100
-          }
-        },
-        "0ba41b50-fb57-4000-a050-24bbad7ad000": {
-          "id": "0ba41b50-fb57-4000-a050-24bbad7ad000",
-          "name": "Giraffe Game HEB 6 sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "a30d457b-7ee2-4000-ad82-66947b4e2000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game HEB 6 sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "05fb3512-5a6a-4000-a622-d445b641f000",
             "volume": 100
           }
         },
@@ -1132,36 +1057,6 @@
             "volume": 100
           }
         },
-        "e1eca41f-7303-4000-afe1-78347bb13000": {
-          "id": "e1eca41f-7303-4000-afe1-78347bb13000",
-          "name": "Giraffe Game HEB 9 sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "a30d457b-7ee2-4000-ad82-66947b4e2000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game HEB 9 sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "8a6514e9-8500-4000-a430-4663ecce2000",
-            "volume": 100
-          }
-        },
-        "72dc8324-fdc5-4000-a842-faf8ea21b000": {
-          "id": "72dc8324-fdc5-4000-a842-faf8ea21b000",
-          "name": "Giraffe Game ENG 2  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "e4f9d7f4-edf6-4000-aaf4-42671fbf0000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ENG 2  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "064932a7-cd3f-4000-a6eb-2301a9d5a000",
-            "volume": 100
-          }
-        },
         "b682cdfa-6591-4000-a02d-140eafb24000": {
           "id": "b682cdfa-6591-4000-a02d-140eafb24000",
           "name": "Giraffe Game ENG 3  sound V1 16-1-23_1.wav",
@@ -1189,36 +1084,6 @@
             "name": "Giraffe Game ENG 4  sound V1 16-1-23.wav",
             "type": "Audio",
             "assetId": "97098303-4ca3-4000-a300-9ae8482ca000",
-            "volume": 100
-          }
-        },
-        "715c6956-df66-4000-a58e-b2ea730c4000": {
-          "id": "715c6956-df66-4000-a58e-b2ea730c4000",
-          "name": "Giraffe Game ENG 5  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "e4f9d7f4-edf6-4000-aaf4-42671fbf0000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ENG 5  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "3bd8a2a3-ec1a-4000-a1eb-15da6c95b000",
-            "volume": 100
-          }
-        },
-        "8cb247d4-e2a0-4000-ad14-b798ae9b9000": {
-          "id": "8cb247d4-e2a0-4000-ad14-b798ae9b9000",
-          "name": "Giraffe Game ENG 6  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "e4f9d7f4-edf6-4000-aaf4-42671fbf0000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ENG 6  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "4b32c9bf-c0b0-4000-adf1-ed069b823000",
             "volume": 100
           }
         },
@@ -1252,21 +1117,6 @@
             "volume": 100
           }
         },
-        "54acf886-3f45-4000-ab4a-70727e6a3000": {
-          "id": "54acf886-3f45-4000-ab4a-70727e6a3000",
-          "name": "Giraffe Game ENG 9  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "e4f9d7f4-edf6-4000-aaf4-42671fbf0000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ENG 9  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "616afd21-6e19-4000-a6d9-acc24024a000",
-            "volume": 100
-          }
-        },
         "e3acae8c-14df-4000-a7be-533aa05b0000": {
           "id": "e3acae8c-14df-4000-a7be-533aa05b0000",
           "name": "Giraffe Game ENG 10  sound V1 16-1-23.wav",
@@ -1297,21 +1147,6 @@
             "volume": 100
           }
         },
-        "0ca76324-bfaa-4000-a138-6005f0fcd000": {
-          "id": "0ca76324-bfaa-4000-a138-6005f0fcd000",
-          "name": "Giraffe Game ENG 12  sound V1 16-1-23_1.wav",
-          "tag": "",
-          "container": {
-            "id": "e4f9d7f4-edf6-4000-aaf4-42671fbf0000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ENG 12  sound V1 16-1-23_1.wav",
-            "type": "Audio",
-            "assetId": "819f8df2-b1de-4000-af67-74ad1c3b5000",
-            "volume": 100
-          }
-        },
         "52383ab8-d3ef-4000-ad80-8b3a80460000": {
           "id": "52383ab8-d3ef-4000-ad80-8b3a80460000",
           "name": "Giraffe Game ARAB 10  sound V1 16-1-23.wav",
@@ -1324,81 +1159,6 @@
             "name": "Giraffe Game ARAB 10  sound V1 16-1-23.wav",
             "type": "Audio",
             "assetId": "5ca958a1-5f44-4000-a2f8-92f610ba0000",
-            "volume": 100
-          }
-        },
-        "01e3e3dd-1542-4000-aef2-9e44f9667000": {
-          "id": "01e3e3dd-1542-4000-aef2-9e44f9667000",
-          "name": "Giraffe Game ARAB 11  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "635f5dda-a51e-4000-ab55-bc25fd4ea000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ARAB 11  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "02048d9b-78b7-4000-ad6d-b8e5d3e30000",
-            "volume": 100
-          }
-        },
-        "75f71111-7b93-4000-a252-84c267208000": {
-          "id": "75f71111-7b93-4000-a252-84c267208000",
-          "name": "Giraffe Game ARAB 2  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "635f5dda-a51e-4000-ab55-bc25fd4ea000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ARAB 2  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "5bdcca5b-92ca-4000-a696-6c3dd7b79000",
-            "volume": 100
-          }
-        },
-        "4cc3d6ca-b1a6-4000-a9ff-d307304bb000": {
-          "id": "4cc3d6ca-b1a6-4000-a9ff-d307304bb000",
-          "name": "Giraffe Game ARAB 3  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "635f5dda-a51e-4000-ab55-bc25fd4ea000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ARAB 3  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "ef3f7451-3504-4000-a6a4-653793765000",
-            "volume": 100
-          }
-        },
-        "78aeeb1a-a85b-4000-a18a-e63cad54a000": {
-          "id": "78aeeb1a-a85b-4000-a18a-e63cad54a000",
-          "name": "Giraffe Game ARAB 4  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "635f5dda-a51e-4000-ab55-bc25fd4ea000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ARAB 4  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "a57d7fc0-82b1-4000-a087-c3f80a72a000",
-            "volume": 100
-          }
-        },
-        "99833359-8032-4000-ac78-c523556c7000": {
-          "id": "99833359-8032-4000-ac78-c523556c7000",
-          "name": "Giraffe Game ARAB 5  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "635f5dda-a51e-4000-ab55-bc25fd4ea000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ARAB 5  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "41120643-cbd9-4000-a451-3689939d5000",
             "volume": 100
           }
         },
@@ -1429,21 +1189,6 @@
             "name": "Giraffe Game ARAB 7  sound V1 16-1-23.wav",
             "type": "Audio",
             "assetId": "87f34ca0-aec3-4000-ae03-abc71fc53000",
-            "volume": 100
-          }
-        },
-        "8f8e0c28-2735-4000-a06b-a2282e103000": {
-          "id": "8f8e0c28-2735-4000-a06b-a2282e103000",
-          "name": "Giraffe Game ARAB 8  sound V1 16-1-23.wav",
-          "tag": "",
-          "container": {
-            "id": "635f5dda-a51e-4000-ab55-bc25fd4ea000",
-            "type": 1
-          },
-          "contentItem": {
-            "name": "Giraffe Game ARAB 8  sound V1 16-1-23.wav",
-            "type": "Audio",
-            "assetId": "a06f2758-857a-4000-abf2-fc01f9bc6000",
             "volume": 100
           }
         },
@@ -1548,6 +1293,21 @@
             "type": "EventHandler",
             "stopPlayback": false
           }
+        },
+        "47ded10c-29dd-4000-ac28-56c408727000": {
+          "id": "47ded10c-29dd-4000-ac28-56c408727000",
+          "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
+          "tag": "",
+          "container": {
+            "id": "635f5dda-a51e-4000-ab55-bc25fd4ea000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
+            "type": "Audio",
+            "assetId": "d838ce85-6d54-4000-a9f2-91f13c666000",
+            "volume": 100
+          }
         }
       },
       "sequencesByParentId": {
@@ -1556,33 +1316,22 @@
           "parentType": 1,
           "sequence": [
             "026efd80-7f45-4000-aa47-97f594c8c000",
-            "e8b23591-6c55-4000-aa1f-6ca5042b6000",
-            "deb3702c-9e0c-4000-ab1f-533271851000",
             "a492b619-413b-4000-aa4d-87bd184ff000",
             "a468543b-298b-4000-a169-6052b4fb3000",
-            "54fcddc2-b870-4000-af73-e11a332e6000",
-            "0dd4c596-b6f5-4000-a102-83d74b3ac000",
-            "0ba41b50-fb57-4000-a050-24bbad7ad000",
             "c650f516-8c7f-4000-a7cc-6ae124862000",
-            "2104f4d1-7e82-4000-afa3-1f5d6931a000",
-            "e1eca41f-7303-4000-afe1-78347bb13000"
+            "2104f4d1-7e82-4000-afa3-1f5d6931a000"
           ]
         },
         "e4f9d7f4-edf6-4000-aaf4-42671fbf0000": {
           "id": "e4f9d7f4-edf6-4000-aaf4-42671fbf0000",
           "parentType": 1,
           "sequence": [
-            "72dc8324-fdc5-4000-a842-faf8ea21b000",
             "b682cdfa-6591-4000-a02d-140eafb24000",
             "87bc58a7-6a56-4000-a705-fbc36427a000",
             "e3acae8c-14df-4000-a7be-533aa05b0000",
             "b0b19eb6-9a08-4000-a876-c0215305d000",
-            "0ca76324-bfaa-4000-a138-6005f0fcd000",
-            "715c6956-df66-4000-a58e-b2ea730c4000",
-            "8cb247d4-e2a0-4000-ad14-b798ae9b9000",
             "2bafa44d-29cd-4000-af3d-ad3a5edd6000",
-            "874ec121-8ac2-4000-a693-485254497000",
-            "54acf886-3f45-4000-ab4a-70727e6a3000"
+            "874ec121-8ac2-4000-a693-485254497000"
           ]
         },
         "635f5dda-a51e-4000-ab55-bc25fd4ea000": {
@@ -1590,15 +1339,10 @@
           "parentType": 1,
           "sequence": [
             "52383ab8-d3ef-4000-ad80-8b3a80460000",
-            "01e3e3dd-1542-4000-aef2-9e44f9667000",
-            "75f71111-7b93-4000-a252-84c267208000",
-            "4cc3d6ca-b1a6-4000-a9ff-d307304bb000",
-            "78aeeb1a-a85b-4000-a18a-e63cad54a000",
-            "99833359-8032-4000-ac78-c523556c7000",
             "dddb05ef-a6fa-4000-aa7f-431dc2784000",
             "974c84fd-782e-4000-ab61-18c45c96f000",
-            "8f8e0c28-2735-4000-a06b-a2282e103000",
-            "9dd4c4e8-272e-4000-ac12-51aee02c8000"
+            "9dd4c4e8-272e-4000-ac12-51aee02c8000",
+            "47ded10c-29dd-4000-ac28-56c408727000"
           ]
         }
       }
@@ -2011,7 +1755,7 @@
         "mediaStateId": "e5d04b01-fd26-4000-a79f-ad9e71b34000",
         "disabled": false,
         "data": {
-          "interval": 24
+          "interval": 9
         },
         "action": "None"
       },
@@ -2911,547 +2655,321 @@
       "c4e2f2c2-1ada-4000-a99b-c571c55e9000": {
         "id": "c4e2f2c2-1ada-4000-a99b-c571c55e9000",
         "name": "Giraffe Game HEB 1 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 1 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 1 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 9374770,
-        "lastModifiedDate": "2023-08-20T07:50:26.902Z",
+        "lastModifiedDate": "2023-01-16T06:48:54.000Z",
         "refCount": 1
       },
       "e4e2f59b-cd08-4000-ace4-593e2abf8000": {
         "id": "e4e2f59b-cd08-4000-ace4-593e2abf8000",
         "name": "Giraffe Game ENG 1 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 1 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 1 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 9010362,
-        "lastModifiedDate": "2023-08-20T07:50:26.575Z",
+        "lastModifiedDate": "2023-01-16T06:37:12.000Z",
         "refCount": 1
       },
       "57ccbb61-cbd2-4000-ae24-4964f18b9000": {
         "id": "57ccbb61-cbd2-4000-ae24-4964f18b9000",
         "name": "Giraffe Game ARAB 1 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 1 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 1 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 12415738,
-        "lastModifiedDate": "2023-08-20T07:50:26.162Z",
+        "lastModifiedDate": "2023-01-16T07:00:32.000Z",
         "refCount": 1
       },
       "6c54d0d7-4d7d-4000-a91e-121203cca000": {
         "id": "6c54d0d7-4d7d-4000-a91e-121203cca000",
         "name": "heartbeat-sound-effect-111218.mp3",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\heartbeat-sound-effect-111218.mp3",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\heartbeat-sound-effect-111218.mp3",
         "mediaType": "Audio",
         "fileSize": 361116,
-        "lastModifiedDate": "2023-08-20T07:50:27.179Z",
+        "lastModifiedDate": "2023-08-02T13:35:46.000Z",
         "refCount": 1
       },
       "386173c3-8e76-4000-a053-0c1275f8f000": {
         "id": "386173c3-8e76-4000-a053-0c1275f8f000",
         "name": "Giraffe Game HEB 10 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 10 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 10 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 2790626,
-        "lastModifiedDate": "2023-08-20T07:50:26.918Z",
+        "lastModifiedDate": "2023-01-16T06:53:02.000Z",
         "refCount": 1
       },
       "60b2605c-daed-4000-a2e3-5e5039f9a000": {
         "id": "60b2605c-daed-4000-a2e3-5e5039f9a000",
         "name": "Giraffe Game HEB 11 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 11 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 11 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 2630034,
-        "lastModifiedDate": "2023-08-20T07:50:26.934Z",
-        "refCount": 1
-      },
-      "902b6f90-0453-4000-a02f-60f487fb0000": {
-        "id": "902b6f90-0453-4000-a02f-60f487fb0000",
-        "name": "Giraffe Game HEB 12 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 12 sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 4436658,
-        "lastModifiedDate": "2023-08-20T07:50:26.959Z",
-        "refCount": 1
-      },
-      "d4689291-6689-4000-ac94-80b374883000": {
-        "id": "d4689291-6689-4000-ac94-80b374883000",
-        "name": "Giraffe Game HEB 2 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 2 sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 3287834,
-        "lastModifiedDate": "2023-08-20T07:50:27.055Z",
+        "lastModifiedDate": "2023-01-16T06:53:36.000Z",
         "refCount": 1
       },
       "e5a7f8c0-1732-4000-ac5b-35c5c782a000": {
         "id": "e5a7f8c0-1732-4000-ac5b-35c5c782a000",
         "name": "Giraffe Game HEB 3 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 3 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 3 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 1208674,
-        "lastModifiedDate": "2023-08-20T07:50:27.061Z",
-        "refCount": 1
-      },
-      "93362dcc-6e46-4000-a696-92c993fcb000": {
-        "id": "93362dcc-6e46-4000-a696-92c993fcb000",
-        "name": "Giraffe Game HEB 4 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 4 sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 3023018,
-        "lastModifiedDate": "2023-08-20T07:50:27.079Z",
-        "refCount": 1
-      },
-      "a1fc3214-e6b6-4000-a773-ee73f8242000": {
-        "id": "a1fc3214-e6b6-4000-a773-ee73f8242000",
-        "name": "Giraffe Game HEB 5 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 5 sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 3809746,
-        "lastModifiedDate": "2023-08-20T07:50:27.101Z",
-        "refCount": 1
-      },
-      "05fb3512-5a6a-4000-a622-d445b641f000": {
-        "id": "05fb3512-5a6a-4000-a622-d445b641f000",
-        "name": "Giraffe Game HEB 6 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 6 sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 3358858,
-        "lastModifiedDate": "2023-08-20T07:50:27.120Z",
+        "lastModifiedDate": "2023-01-16T06:49:48.000Z",
         "refCount": 1
       },
       "5c185b4f-d832-4000-a10e-b77a8d3d7000": {
         "id": "5c185b4f-d832-4000-a10e-b77a8d3d7000",
         "name": "Giraffe Game HEB 7 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 7 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 7 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 2185330,
-        "lastModifiedDate": "2023-08-20T07:50:27.133Z",
+        "lastModifiedDate": "2023-01-16T06:51:36.000Z",
         "refCount": 1
       },
       "19a8daf0-68eb-4000-a013-4bdcef49f000": {
         "id": "19a8daf0-68eb-4000-a013-4bdcef49f000",
         "name": "Giraffe Game HEB 8 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 8 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 8 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 2376802,
-        "lastModifiedDate": "2023-08-20T07:50:27.147Z",
-        "refCount": 1
-      },
-      "8a6514e9-8500-4000-a430-4663ecce2000": {
-        "id": "8a6514e9-8500-4000-a430-4663ecce2000",
-        "name": "Giraffe Game HEB 9 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 9 sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 4964754,
-        "lastModifiedDate": "2023-08-20T07:50:27.176Z",
-        "refCount": 1
-      },
-      "064932a7-cd3f-4000-a6eb-2301a9d5a000": {
-        "id": "064932a7-cd3f-4000-a6eb-2301a9d5a000",
-        "name": "Giraffe Game ENG 2  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 2  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 3684674,
-        "lastModifiedDate": "2023-08-20T07:50:26.733Z",
+        "lastModifiedDate": "2023-01-16T06:51:58.000Z",
         "refCount": 1
       },
       "5a487381-ac8e-4000-a1f8-5347e5065000": {
         "id": "5a487381-ac8e-4000-a1f8-5347e5065000",
         "name": "Giraffe Game ENG 3  sound V1 16-1-23_1.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 3  sound V1 16-1-23_1.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 3  sound V1 16-1-23_1.wav",
         "mediaType": "Audio",
         "fileSize": 1189370,
-        "lastModifiedDate": "2023-08-20T07:50:26.740Z",
+        "lastModifiedDate": "2023-01-16T06:38:22.000Z",
         "refCount": 1
       },
       "97098303-4ca3-4000-a300-9ae8482ca000": {
         "id": "97098303-4ca3-4000-a300-9ae8482ca000",
         "name": "Giraffe Game ENG 4  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 4  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 4  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 2710330,
-        "lastModifiedDate": "2023-08-20T07:50:26.755Z",
-        "refCount": 1
-      },
-      "3bd8a2a3-ec1a-4000-a1eb-15da6c95b000": {
-        "id": "3bd8a2a3-ec1a-4000-a1eb-15da6c95b000",
-        "name": "Giraffe Game ENG 5  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 5  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 3513274,
-        "lastModifiedDate": "2023-08-20T07:50:26.776Z",
-        "refCount": 1
-      },
-      "4b32c9bf-c0b0-4000-adf1-ed069b823000": {
-        "id": "4b32c9bf-c0b0-4000-adf1-ed069b823000",
-        "name": "Giraffe Game ENG 6  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 6  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 3732538,
-        "lastModifiedDate": "2023-08-20T07:50:26.797Z",
+        "lastModifiedDate": "2023-01-16T06:38:50.000Z",
         "refCount": 1
       },
       "b4866aaa-41d4-4000-a9bd-2ec05f3e2000": {
         "id": "b4866aaa-41d4-4000-a9bd-2ec05f3e2000",
         "name": "Giraffe Game ENG 7  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 7  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 7  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 1773042,
-        "lastModifiedDate": "2023-08-20T07:50:26.807Z",
+        "lastModifiedDate": "2023-01-16T06:41:02.000Z",
         "refCount": 1
       },
       "cf7c29d7-dc65-4000-a8f7-82316ccd9000": {
         "id": "cf7c29d7-dc65-4000-a8f7-82316ccd9000",
         "name": "Giraffe Game ENG 8  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 8  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 8  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 1797754,
-        "lastModifiedDate": "2023-08-20T07:50:26.818Z",
-        "refCount": 1
-      },
-      "616afd21-6e19-4000-a6d9-acc24024a000": {
-        "id": "616afd21-6e19-4000-a6d9-acc24024a000",
-        "name": "Giraffe Game ENG 9  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 9  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 5214898,
-        "lastModifiedDate": "2023-08-20T07:50:26.848Z",
+        "lastModifiedDate": "2023-01-16T06:41:24.000Z",
         "refCount": 1
       },
       "2ce476c6-05b3-4000-a942-e57dd9f02000": {
         "id": "2ce476c6-05b3-4000-a942-e57dd9f02000",
         "name": "Giraffe Game ENG 10  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 10  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 10  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 1907386,
-        "lastModifiedDate": "2023-08-20T07:50:26.604Z",
+        "lastModifiedDate": "2023-01-16T06:42:32.000Z",
         "refCount": 1
       },
       "83925f2f-0151-4000-a86e-b038850c3000": {
         "id": "83925f2f-0151-4000-a86e-b038850c3000",
         "name": "Giraffe Game ENG 11  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 11  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 11  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 2108122,
-        "lastModifiedDate": "2023-08-20T07:50:26.616Z",
-        "refCount": 1
-      },
-      "819f8df2-b1de-4000-af67-74ad1c3b5000": {
-        "id": "819f8df2-b1de-4000-af67-74ad1c3b5000",
-        "name": "Giraffe Game ENG 12  sound V1 16-1-23_1.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 12  sound V1 16-1-23_1.wav",
-        "mediaType": "Audio",
-        "fileSize": 3718642,
-        "lastModifiedDate": "2023-08-20T07:50:26.637Z",
+        "lastModifiedDate": "2023-01-16T06:42:58.000Z",
         "refCount": 1
       },
       "5ca958a1-5f44-4000-a2f8-92f610ba0000": {
         "id": "5ca958a1-5f44-4000-a2f8-92f610ba0000",
         "name": "Giraffe Game ARAB 10  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 10  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 10  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 3208014,
-        "lastModifiedDate": "2023-08-20T07:50:26.181Z",
-        "refCount": 1
-      },
-      "02048d9b-78b7-4000-ad6d-b8e5d3e30000": {
-        "id": "02048d9b-78b7-4000-ad6d-b8e5d3e30000",
-        "name": "Giraffe Game ARAB 11  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 11  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 5509700,
-        "lastModifiedDate": "2023-08-20T07:50:26.212Z",
-        "refCount": 1
-      },
-      "5bdcca5b-92ca-4000-a696-6c3dd7b79000": {
-        "id": "5bdcca5b-92ca-4000-a696-6c3dd7b79000",
-        "name": "Giraffe Game ARAB 2  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 2  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 4804842,
-        "lastModifiedDate": "2023-08-20T07:50:26.344Z",
-        "refCount": 1
-      },
-      "ef3f7451-3504-4000-a6a4-653793765000": {
-        "id": "ef3f7451-3504-4000-a6a4-653793765000",
-        "name": "Giraffe Game ARAB 3  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 3  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 5888138,
-        "lastModifiedDate": "2023-08-20T07:50:26.377Z",
-        "refCount": 1
-      },
-      "a57d7fc0-82b1-4000-a087-c3f80a72a000": {
-        "id": "a57d7fc0-82b1-4000-a087-c3f80a72a000",
-        "name": "Giraffe Game ARAB 4  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 4  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 5486210,
-        "lastModifiedDate": "2023-08-20T07:50:26.408Z",
-        "refCount": 1
-      },
-      "41120643-cbd9-4000-a451-3689939d5000": {
-        "id": "41120643-cbd9-4000-a451-3689939d5000",
-        "name": "Giraffe Game ARAB 5  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 5  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 4522254,
-        "lastModifiedDate": "2023-08-20T07:50:26.434Z",
+        "lastModifiedDate": "2023-01-16T07:02:46.000Z",
         "refCount": 1
       },
       "734d552d-6da3-4000-a945-38ace15e4000": {
         "id": "734d552d-6da3-4000-a945-38ace15e4000",
         "name": "Giraffe Game ARAB 6  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 6  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 6  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 2476882,
-        "lastModifiedDate": "2023-08-20T07:50:26.448Z",
+        "lastModifiedDate": "2023-01-16T07:01:52.000Z",
         "refCount": 1
       },
       "87f34ca0-aec3-4000-ae03-abc71fc53000": {
         "id": "87f34ca0-aec3-4000-ae03-abc71fc53000",
         "name": "Giraffe Game ARAB 7  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 7  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 7  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 3003186,
-        "lastModifiedDate": "2023-08-20T07:50:26.465Z",
-        "refCount": 1
-      },
-      "a06f2758-857a-4000-abf2-fc01f9bc6000": {
-        "id": "a06f2758-857a-4000-abf2-fc01f9bc6000",
-        "name": "Giraffe Game ARAB 8  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
-        "networkId": 0,
-        "location": "Local",
-        "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 8  sound V1 16-1-23.wav",
-        "mediaType": "Audio",
-        "fileSize": 7093456,
-        "lastModifiedDate": "2023-08-20T07:50:26.504Z",
+        "lastModifiedDate": "2023-01-16T07:02:06.000Z",
         "refCount": 1
       },
       "ef71e981-28a0-4000-a6b6-ce9359451000": {
         "id": "ef71e981-28a0-4000-a6b6-ce9359451000",
         "name": "Giraffe Game ARAB 9  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 9  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 9  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 3535834,
-        "lastModifiedDate": "2023-08-20T07:50:26.524Z",
+        "lastModifiedDate": "2023-01-16T07:02:30.000Z",
         "refCount": 1
       },
       "c8e609c3-a62b-4000-ae16-75eae80fe000": {
         "id": "c8e609c3-a62b-4000-ae16-75eae80fe000",
         "name": "Giraffe Game ENG 13  sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 13  sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ENG\\Giraffe Game ENG 13  sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 13254934,
-        "lastModifiedDate": "2023-08-20T07:50:26.711Z",
+        "lastModifiedDate": "2023-01-16T06:45:52.000Z",
         "refCount": 1
       },
       "99c259e8-6522-4000-aee5-a755ab054000": {
         "id": "99c259e8-6522-4000-aee5-a755ab054000",
         "name": "Giraffe Game HEB 13 sound V1 16-1-23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 13 sound V1 16-1-23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game HEB\\Giraffe Game HEB 13 sound V1 16-1-23.wav",
         "mediaType": "Audio",
         "fileSize": 13404938,
-        "lastModifiedDate": "2023-08-20T07:50:27.034Z",
+        "lastModifiedDate": "2023-01-16T06:56:54.000Z",
         "refCount": 1
       },
       "eaea85fd-1787-4000-ad07-8d3305cfa000": {
         "id": "eaea85fd-1787-4000-ad07-8d3305cfa000",
         "name": "Giraffe Game ARAB 13(replacement) sound V2 13.09.23.wav",
-        "path": "E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
         "networkId": 0,
         "location": "Local",
         "assetType": "Content",
-        "scope": "8abe692c70b45aa0",
-        "locator": "file://\\E:\\Dev\\Brightsign\\Midbarium-Brightsign\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 13(replacement) sound V2 13.09.23.wav",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 13(replacement) sound V2 13.09.23.wav",
         "mediaType": "Audio",
         "fileSize": 22017080,
         "lastModifiedDate": "2023-09-18T14:20:02.508Z",
+        "refCount": 1
+      },
+      "d838ce85-6d54-4000-a9f2-91f13c666000": {
+        "id": "d838ce85-6d54-4000-a9f2-91f13c666000",
+        "name": "Giraffe Game ARAB 12  sound V1 16-1-23.wav",
+        "path": "C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "9167d771b219af31",
+        "locator": "file://\\C:\\Berger\\Giraffe-bs\\Assets\\Giraffe Game ARAB\\Giraffe Game ARAB 12  sound V1 16-1-23.wav",
+        "mediaType": "Audio",
         "refCount": 1
       }
     },
@@ -3460,14 +2978,14 @@
   "selection": {
     "hovered": null,
     "selectionContainer": {
-      "id": "10cfc61e-5ce3-4000-ade2-c1243ddae000",
+      "id": "013e44a3-afa0-4000-aa92-e091e5e18000",
       "type": "ZONE",
       "selectableType": "ZONE"
     },
     "selectionEntities": {},
     "prevSelectionEntities": {},
     "isEventAdvancedEnabled": false,
-    "activeAssetMenuTab": "WIDGETS"
+    "activeAssetMenuTab": "ASSETS"
   },
   "interactiveCanvas": {
     "statePositionById": {
@@ -3614,8 +3132,8 @@
       "7bcccfd0-deea-4000-ab96-d6cb1993d000": {
         "id": "7bcccfd0-deea-4000-ab96-d6cb1993d000",
         "position": {
-          "x": 832.394775390625,
-          "y": 1394.6168212890625
+          "x": 707.394775390625,
+          "y": 1266.283447265625
         }
       },
       "3583e1b4-e596-4000-a787-b2849ed1c000": {
@@ -3873,14 +3391,14 @@
     },
     "viewTransformByZoneId": {
       "10cfc61e-5ce3-4000-ade2-c1243ddae000": {
-        "x": 439.8877878808936,
-        "y": -306.75842053559074,
-        "k": 0.6244535128253423
+        "x": -296.88619177612566,
+        "y": -894.7501265028682,
+        "k": 0.9455135202789076
       },
       "013e44a3-afa0-4000-aa92-e091e5e18000": {
-        "x": 336.2175603854846,
-        "y": -445.0451546540693,
-        "k": 0.6678886738756699
+        "x": -94.80753326963998,
+        "y": -797.6206169661534,
+        "k": 1.1367874248827985
       },
       "70d26da6-978a-4000-af33-d5b62fe18000": {
         "x": 518.0479788546977,
